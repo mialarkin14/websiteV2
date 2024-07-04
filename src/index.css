@@ -9,6 +9,7 @@ html {
 body {
   margin:0;
   padding:0;
+  background-color: #00051a;
 }
 
 header{
@@ -49,4 +50,8 @@ li:hover{
   padding-right: 25px;
   position: relative;
   top: -4px;
+}
+
+.background{
+
 }

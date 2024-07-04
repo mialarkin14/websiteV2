@@ -1,12 +1,13 @@
 import NavBar from './components/navBarH.tsx'
 
-import bg from './assets/bg.png'
+import bg from './assets/bg.svg'
 
 
 function App() {
 
   return (
     <>
+      
       <header>
           <NavBar></NavBar>
         </header>
