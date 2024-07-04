@@ -1,7 +1,7 @@
 import NavBarH from './components/navBarH.tsx'
 import NavBarF from './components/navBarF.tsx'
 import bg from './assets/bg.svg'
-
+import TypeWriter from './components/typeWritter.tsx'
 
 function App() {
 
@@ -14,9 +14,14 @@ function App() {
       <div>
         <img src={bg} alt="Background" width="100%"/>
       </div>
+    <div>
+       <TypeWriter></TypeWriter>
+    </div>
+
       <footer>
         <NavBarF></NavBarF>
       </footer>
+      
     </>
   )
 }
