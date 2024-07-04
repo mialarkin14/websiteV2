@@ -25,11 +25,11 @@ html {
 body {
   margin:0;
   padding:0;
-  background-color: #00051a;
+  background-color: #000000;
 }
 
 header{
-  background-color: #0d0d0d;
+  background-color: #000000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,7 +55,7 @@ li, .linkH {
 }
 
 li:hover, .linkF:hover{
-  text-decoration: underline;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
 }
 
 .link{
@@ -83,7 +83,8 @@ TypeWriter - Computer
 
 .computer{
   height: auto;
-  padding: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #000310;
   display: flex;
   justify-content: center;
@@ -101,6 +102,7 @@ TypeWriter - Computer
   background-color: #000310;
   text-align: center;
   border-radius: 5px;
+  border-width: 2px;
   cursor: pointer;
   border-style: solid;
   padding: 1.5rem;
