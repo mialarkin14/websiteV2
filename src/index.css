@@ -89,7 +89,9 @@ TypeWriter - Computer
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  background-image: -webkit-image-set("/src/assets/bg.svg");
+  background-repeat: no-repeat;
+  box-shadow: 0 0 20px 15px #0951ff;
 }
 
 
@@ -100,6 +102,7 @@ TypeWriter - Computer
   justify-content: center;
   align-items: center;
   background-color: #000310;
+  
   text-align: center;
   border-radius: 5px;
   border-width: 2px;
