@@ -9,7 +9,7 @@ const TypeWriter = () => {
           1000,
           "",
         ]}
-        speed={50}
+        speed={30}
         style={{ whiteSpace: 'pre-line', fontSize: '2em' }}
         repeat={Infinity}
       />
