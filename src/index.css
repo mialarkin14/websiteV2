@@ -33,7 +33,7 @@ header{
 NavBarHeader
 */
 
-li, a {
+li, .linkH {
   text-decoration:none;
   font-size: 20px;
   color: white;
@@ -43,7 +43,7 @@ li, a {
   font-family: Lexend;
 }
 
-li:hover{
+li:hover, .linkF:hover{
   text-decoration: underline;
 }
 
@@ -60,6 +60,10 @@ li:hover{
   top: -4px;
 }
 
+.iconH{
+  padding-left: 25px;
+}
+
 
 
 /*
@@ -68,4 +72,24 @@ NavBarFooter
 
 footer{
   padding: 20px;
+}
+
+.navBarF{
+  display: flex;
+  grid-template-columns: 2fr 1fr;
+  
+}
+
+.iconF{
+  position: relative;
+  transform: translateY(25%);
+}
+
+.linkF{
+  font-size: 20px;
+  color: white;
+  font-family: Lexend;
+  text-decoration:none;
+  padding: 5%;
+  display: inline-block;
 }
