@@ -4,7 +4,7 @@ const insta = "https://www.instagram.com/shadowillusion14/";
 
 
 
-const NavBar = () =>{
+const NavBarH = () =>{
     return(
     <>
         <a className="icon" href="#" target="_blank"><img src="src/assets/navbar/logo.svg" width="50px" height="auto"></img></a>
@@ -25,4 +25,4 @@ const NavBar = () =>{
     )
 }
 
-export default NavBar
+export default NavBarH
