@@ -1,7 +1,18 @@
 @font-face {
   font-family: "Lexend";
-  src: url(src/assets/Lexend-VariableFont_wght.ttf);
+  src: url(src/assets/fonts/Lexend-VariableFont_wght.ttf);
 }
+
+@font-face {
+  font-family: "Mono-Reg";
+  src: url(src/assets/fonts/SpaceMono-Regular.ttf);
+}
+
+@font-face{
+  font-family: "Mono-Bold";
+  src: url(src/assets/fonts/SpaceMono-Bold.ttf);
+}
+
 
 /*
 Front Matter
@@ -67,11 +78,41 @@ li:hover, .linkF:hover{
 
 
 /*
-TypeWriter
+TypeWriter - Computer
 */
 
-.typeWriteText{
+.computer{
+  height: auto;
+  padding: 100px;
+  background-color: #000310;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.typeWriteDiv{
+  height: 300px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000310;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border-style: solid;
+  padding: 1.5rem;
+  margin-top: 25px;
+  color: #0951ff;
+  box-shadow: 0 0 50px 15px #0951ff;
+}
+
+.typeWrite{
+  height: auto;
   color: white;
+  font-family: Mono-Reg;
 }
 
 

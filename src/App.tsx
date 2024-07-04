@@ -14,10 +14,12 @@ function App() {
       <div>
         <img src={bg} alt="Background" width="100%"/>
       </div>
-    <div>
-       <TypeWriter></TypeWriter>
-    </div>
-
+      <div className="computer">
+        <div className="typeWriteDiv">
+          <TypeWriter></TypeWriter>
+        </div>
+      </div>
+    
       <footer>
         <NavBarF></NavBarF>
       </footer>
