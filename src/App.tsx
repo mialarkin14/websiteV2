@@ -1,6 +1,7 @@
 import NavBarH from './components/navBarH.tsx'
 import NavBarF from './components/navBarF.tsx'
 import TypeWriter from './components/typeWritter.tsx'
+import MiniAbout from './components/miniAbout.tsx'
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
           </div>
         </div>
       
-    
+      <MiniAbout></MiniAbout>
+
       <footer>
         <NavBarF></NavBarF>
       </footer>
