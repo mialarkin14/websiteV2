@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Lexend";
+  src: url(src/assets/Lexend-VariableFont_wght.ttf);
+}
+
 /*
 Front Matter
 */
@@ -35,6 +40,7 @@ li, a {
   cursor: pointer;
   position: relative;
   top: -5px;
+  font-family: Lexend;
 }
 
 li:hover{
