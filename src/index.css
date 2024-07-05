@@ -133,13 +133,17 @@ MiniAbout
 */
 
 .miniAbout{
+  box-shadow: 10px 15px 20px #09c6ff;
+}
+
+
+.intro{
   padding-top: 200px;
   padding-bottom: 100px;
   padding-left: 80px;
   padding-right: 80px;
   display: flex;
   flex-flow: wrap;
-  
 }
 
 .meDiv{
@@ -157,7 +161,7 @@ MiniAbout
   align-items: center;
   margin-left: 70px;
   margin-right: 70px;
-
+  margin-bottom: 10px;
 }
 
 .me{
@@ -207,6 +211,58 @@ MiniAbout
 
 
 
+.tech{
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-flow: wrap;
+  
+}
+
+
+.circuitDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.blurbDivT{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+.circuit{
+  width: 400px;
+  height: auto;
+  box-shadow: 0 0 40px 15px #09c6ff;
+  border-radius: 20px;
+  position: relative;
+}
+
+.circuit:hover{
+  box-shadow: 0 0 60px 15px #09c6ff;
+}
+
+.blurbT{
+  font-size: 33px;
+  color: white;
+  font-family: Lexend;
+  width: 300px;
+  display: inline-block;
+}
+
+
+
 
 
 
@@ -231,7 +287,7 @@ footer{
 }
 
 .linkF{
-  font-size: 20px;
+  font-size: 22px;
   color: white;
   font-family: Lexend;
   text-decoration:none;
