@@ -7,48 +7,62 @@ import {
     RxAccessibility,
   } from "react-icons/rx";
   
-  import SpaceCity1 from "../assets/SpaceCity1.jpg";
-  import SpaceCity5 from "../assets/SpaceCity5.jpeg";
-  import SpaceCity6 from "../assets/SpaceCity6.jpeg";
-  import SpaceCity7 from "../assets/SpaceCity7.jpeg";
-  import SpaceCity8 from "../assets/SpaceCity8.jpeg";
-  import SpaceCity9 from "../assets/SpaceCity9.jpeg";
+  import c from "./skills/c.png";
+  import css from "./skills/css.png";
+  import html from "./skills/html.png";
+  import java from "./skills/java.png";
+  import oop from "./skills/oop.png";
+  import python from "./skills/python.svg";
+  import react from "./skills/react.png"
+  import riscv from "./skills/riscv.png"
   
   export const ServiceData = [
     {
       icon: RxCrop,
-      title: "Development",
+      title: "C",
       content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
-      backgroundImage: SpaceCity9,
+      backgroundImage: c,
     },
     {
       icon: RxPencil2,
-      title: "Branding",
+      title: "CSS",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: SpaceCity1,
+      backgroundImage: css,
     },
     {
       icon: RxDesktop,
-      title: "Design",
+      title: "HTML",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: SpaceCity6,
+      backgroundImage: html,
     },
     {
       icon: RxReader,
-      title: "Seo",
+      title: "Java",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: SpaceCity7,
+      backgroundImage: java,
     },
     {
       icon: RxAccessibility,
-      title: "Management",
+      title: "Object Oriented Programming",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: SpaceCity5,
+      backgroundImage: oop,
     },
     {
       icon: RxRocket,
-      title: "Production",
+      title: "Python",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      backgroundImage: SpaceCity8,
+      backgroundImage: python,
+    },
+    {
+      icon: RxRocket,
+      title: "React",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      backgroundImage: react,
+    },
+    {
+      icon: RxRocket,
+      title: "Risc-V",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      backgroundImage: riscv,
     },
   ];

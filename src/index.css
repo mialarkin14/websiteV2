@@ -268,13 +268,34 @@ MiniAbout
 SkillsSlider
 */
 .activeSlider{
-  display: flex-col;
+  display: flex;
+  flex-direction: column;
   justify-items: center;
   justify-content: center;
   height: h-screen;
-  background-color: #000724;
+  background-color: #000000;
+  margin-top: 30px;
 
 }
+
+.swiper{
+  max-width: 90%;
+}
+
+.swiperSlide{
+  display: flex;
+  flex-direction: column;  
+  gap: 6px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.title, .content{
+  color: white;
+  font-family: Mono-Reg;
+}
+
 
 
 
