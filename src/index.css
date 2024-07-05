@@ -137,31 +137,32 @@ MiniAbout
 }
 
 
-.intro{
-  padding-top: 200px;
-  padding-bottom: 100px;
+.intro, .tech{
   padding-left: 80px;
   padding-right: 80px;
   display: flex;
+  flex-direction: row;
   flex-flow: wrap;
+  justify-content:space-around;
+  align-content: center;
 }
 
-.meDiv{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  position: relative;
+.intro{
+  padding-top: 200px;
+  padding-bottom: 70px;
+}
+
+.tech{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.meDiv, .blurbDiv, .circuitDiv, .blurbDivT{
+  display: inline-block;
 }
 
 .blurbDiv{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 70px;
-  margin-right: 70px;
-  margin-bottom: 10px;
+  display: inline-block;
 }
 
 .me{
@@ -169,7 +170,6 @@ MiniAbout
   height: auto;
   box-shadow: 0 0 40px 15px #09c6ff;
   border-radius: 20px;
-  position: relative;
 }
 
 .me:hover{
@@ -181,7 +181,7 @@ MiniAbout
   color: white;
   font-family: Lexend;
   width: 300px;
-  display: inline-block;
+  padding-top: 50px;
 }
 
 
@@ -195,58 +195,32 @@ MiniAbout
   font-size: 40px;
   color: white;
   font-family: Lexend;
+  padding-bottom: 30px;
 }
 
 .hobbiesIcon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10%;
   margin-left: 10%;
   margin-right: 10%;
+  flex-wrap: wrap;
 }
 
 .hobby{
-  width: 10%;
+  width: 100px;
   height: auto;
-  padding: 50px;
-  display: inline-block;
+  padding-bottom: 60px;
 }
 
-
-
-.tech{
-  padding-top: 50px;
-  padding-bottom: 100px;
-  padding-left: 80px;
-  padding-right: 80px;
-  display: flex;
-  flex-flow: wrap;
-  
-}
-
-
-.circuitDiv{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10px;
-  margin-right: 20px;
-  position: relative;
-  margin-top: 10px;
-}
-
-.blurbDivT{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
-
-}
 
 .circuit{
   width: 400px;
   height: auto;
   box-shadow: 0 0 40px 15px #09c6ff;
   border-radius: 20px;
-  position: relative;
+  margin-top: 60px;
 }
 
 .circuit:hover{
@@ -258,7 +232,6 @@ MiniAbout
   color: white;
   font-family: Lexend;
   width: 300px;
-  display: inline-block;
 }
 
 
