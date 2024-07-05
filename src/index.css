@@ -46,7 +46,7 @@ header{
 NavBarHeader
 */
 
-li, .linkH {
+.linkH {
   text-decoration:none;
   font-size: 20px;
   color: white;
@@ -56,7 +56,7 @@ li, .linkH {
   font-family: Lexend;
 }
 
-li:hover, .linkF:hover{
+.linkH:hover, .linkF:hover{
   text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
 }
 
@@ -295,13 +295,22 @@ footer{
 
 .navBarF{
   display: flex;
-  grid-template-columns: 2fr 1fr;
-  
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 1px;
+}
+
+.iconF, .navLinks{
+  display: inline-block;
 }
 
 .iconF{
-  position: relative;
-  transform: translateY(25%);
+  padding-top: 4%;
+}
+
+.navLinks{
+  width: 82%;
 }
 
 .linkF{
