@@ -11,6 +11,18 @@ const MiniAbout = () => {
                     </p>
                 </div>
             </div>
+            <div className="hobbies">
+                <p className="hobbies-text">
+                    I enjoy:
+                </p>
+            </div>
+            <div className="hobbiesIcon">
+                <img className="hobby" src="src/assets/hobbies/drawing.svg"></img>
+                <img className="hobby" src="src/assets/hobbies/gaming.svg"></img>
+                <img className="hobby" src="src/assets/hobbies/ice-skating.svg"></img>
+                <img className="hobby" src="src/assets/hobbies/music.svg"></img>
+                <img className="hobby" src="src/assets/hobbies/skateboarding"></img>
+            </div>
         </>
     )
 

@@ -112,10 +112,16 @@ TypeWriter - Computer
   box-shadow: 0 0 50px 15px #0951ff;
 }
 
+.typeWriteDiv:hover{
+  box-shadow: 0 0 70px 15px #0951ff;
+  cursor: default;
+}
+
 .typeWrite{
   height: auto;
   color: white;
   font-family: Mono-Reg;
+  font-size: 20px;
 }
 
 
@@ -155,7 +161,7 @@ MiniAbout
 .me{
   width: 300px;
   height: auto;
-  box-shadow: 0 0 50px 15px #0951ff;
+  box-shadow: 0 0 40px 15px #09c6ff;
   border-radius: 20px;
   position: relative;
   
@@ -168,6 +174,33 @@ MiniAbout
   width: 300px;
   display: inline-block;
 }
+
+
+.hobbies{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobbies-text{
+  font-size: 40px;
+  color: white;
+  font-family: Lexend;
+}
+
+.hobbiesIcon{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.hobby{
+  width: 10%;
+  height: auto;
+  padding: 50px;
+  display: inline-block;
+}
+
+
 
 
 

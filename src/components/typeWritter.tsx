@@ -5,13 +5,14 @@ const TypeWriter = () => {
     <div className="typeWrite">
       <TypeAnimation
         sequence={[
-          `hi i'm mia\n and i'm a computer engineer\nwelcome to my website!`,
+          `hi i'm mia\n welcome to my website!`,
           1000,
           "",
         ]}
-        speed={30}
+        speed={1}
         style={{ whiteSpace: 'pre-line', fontSize: '2em' }}
         repeat={Infinity}
+        omitDeletionAnimation={true}
       />
     </div>
   );
