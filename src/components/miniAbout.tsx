@@ -7,13 +7,13 @@ const MiniAbout = () => {
                 </div>
                 <div className="blurbDiv">
                     <p className="blurb">
-                        I'm a Computer Engineer undergraduate from Easton, CT studying at UConn.
+                        i'm a computer engineer undergraduate from easton, ct studying at uconn.
                     </p>
                 </div>
             </div>
             <div className="hobbies">
                 <p className="hobbies-text">
-                    I enjoy:
+                    i enjoy:
                 </p>
             </div>
             <div className="hobbiesIcon">
