@@ -275,6 +275,7 @@ SkillsSlider
   height: h-screen;
   background-color: #000000;
   margin-top: 30px;
+  padding: 100px;
 
 }
 
@@ -290,6 +291,15 @@ SkillsSlider
   position: relative;
   overflow: hidden;
 }
+
+.images{
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  
+}
+
 
 .title, .content{
   color: white;

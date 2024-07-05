@@ -35,7 +35,7 @@ const SkillsSwiper = () => {
                 <SwiperSlide key={item.title}>
                     <div className="swiperSlide">
                         <div
-                        className="absolute inset-0 bg-cover bg-center"
+                        className="images"
                         style={{ backgroundImage: `url(${item.backgroundImage})` }}
                         />
                         <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-50" />
