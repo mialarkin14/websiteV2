@@ -264,6 +264,20 @@ MiniAbout
 
 
 
+/*
+SkillsSlider
+*/
+.activeSlider{
+  display: flex-col;
+  justify-items: center;
+  justify-content: center;
+  height: h-screen;
+  background-color: #000724;
+
+}
+
+
+
 
 
 

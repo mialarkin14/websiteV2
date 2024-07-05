@@ -31,8 +31,8 @@ const MiniAbout = () => {
             <div className="tech">
                 <div className="blurbDivT">
                     <p className="blurbT">
-                    born in china and raised by two irish parents, i found a passion for STEM in high school! 
-                    i have exposure with multiple languages and have designed circuits.
+                    in high school, i found my passion for STEM! 
+                    i have exposure with multiple languages and have designed multiple circuits.
                     </p>
                 </div>
                 <div className="circuitDiv">
