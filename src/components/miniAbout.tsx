@@ -21,7 +21,7 @@ const MiniAbout = () => {
                 <img className="hobby" src="src/assets/hobbies/gaming.svg"></img>
                 <img className="hobby" src="src/assets/hobbies/ice-skating.svg"></img>
                 <img className="hobby" src="src/assets/hobbies/music.svg"></img>
-                <img className="hobby" src="src/assets/hobbies/skateboarding"></img>
+                <img className="hobby" src="src/assets/hobbies/skateboarding.svg"></img>
             </div>
         </>
     )
