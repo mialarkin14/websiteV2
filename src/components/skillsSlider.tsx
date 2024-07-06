@@ -6,7 +6,7 @@ import 'swiper/css/free-mode'
 import 'swiper/css/navigation'
 
 import { FreeMode, Navigation, Pagination } from 'swiper/modules'
-import { ServiceData } from '../assets'
+import { SwiperImages } from '../assets/swiperContent'
 
 
 const SkillsSwiper = () => {
@@ -30,7 +30,7 @@ const SkillsSwiper = () => {
                 modules={[FreeMode, Pagination, Navigation]}
                 className="swiper"
             >
-            {ServiceData.map((item) => (
+            {SwiperImages.map((item) => (
                 <SwiperSlide key={item.title}>
                     <div className="swiperSlide">
                         <div className="card">

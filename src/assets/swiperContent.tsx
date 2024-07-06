@@ -6,7 +6,7 @@ import python from "./skills/python.png";
 import react from "./skills/react.png"
 import riscv from "./skills/riscv.png"
   
-  export const ServiceData = [
+  export const SwiperImages = [
     {
       title: "C",
       content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
