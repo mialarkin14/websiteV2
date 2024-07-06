@@ -311,16 +311,11 @@ SkillsSlider
   text-align: center;
 }
 
-.python{
-  color: white;
-  font-family: Mono-Reg;
-  font-size: 8px;
-  height: 20px;
-  padding-bottom: 60px;
+.content{
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-
-
-
 
 
 

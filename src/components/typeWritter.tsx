@@ -13,6 +13,7 @@ const TypeWriter = ({className, text, repeatT}: {className: string, text:string,
         style={{ whiteSpace: 'pre-line', fontSize: '2em' }}
         repeat={repeatT}
         omitDeletionAnimation={true}
+   
       />
     </div>
   );

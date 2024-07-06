@@ -45,7 +45,7 @@ const Skills = () => {
                         <div className="card">
                             <div className="images" style={{ backgroundImage: `url(${item.Image})` }}/>
                             <h1 className="title">{item.title} </h1>
-                            <p className="content">{item.content} </p>
+                            <p className="content">{item.content} </p>      
                         </div>
                     </div>
                 </SwiperSlide>
