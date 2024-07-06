@@ -8,38 +8,39 @@ import riscv from "./skills/riscv.png"
   
   export const SwiperImages = [
     {
-      title: "C",
-      content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
-      Image: c,
-    },
-    {
-      title: "CSS",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      Image: css,
-    },
-    {
-      title: "HTML",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      Image: html,
-    },
-    {
-      title: "Java",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      Image: java,
-    },
-    {
-      title: "Python",
+      title: "python",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       Image: python,
     },
     {
-      title: "React",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      Image: react,
+      title: "c",
+      content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
+      Image: c,
     },
     {
-      title: "Risc-V",
+      title: "risc-v",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       Image: riscv,
     },
+    {
+      title: "java",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      Image: java,
+    },
+    {
+      title: "css",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      Image: css,
+    },
+    {
+      title: "html",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      Image: html,
+    },
+    {
+      title: "react",
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      Image: react,
+    },
+
   ];

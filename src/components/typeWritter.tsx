@@ -1,11 +1,11 @@
 import { TypeAnimation } from 'react-type-animation';
 
-const TypeWriter = () => {
+const TypeWriter = ({text}: {text:string}) => {
   return (
     <div className="typeWrite">
       <TypeAnimation
         sequence={[
-          `hi i'm mia\n welcome to my website!`,
+          text,
           1000,
           "",
         ]}
@@ -19,3 +19,4 @@ const TypeWriter = () => {
 };
 
 export default TypeWriter;
+

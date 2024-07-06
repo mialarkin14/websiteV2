@@ -17,7 +17,7 @@ function App() {
       {/* Typewriter Animation for Title*/}
       <div className="computer">
         <div className="typeWriteDiv">
-          <TypeWriter></TypeWriter>
+          <TypeWriter text={"hi i'm mia\n welcome to my website!"}></TypeWriter>
         </div>
       </div>
       

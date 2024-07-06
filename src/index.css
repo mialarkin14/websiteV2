@@ -240,6 +240,27 @@ MiniAbout
 /*
 SkillsSlider
 */
+
+.mySkillsDiv{
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  flex-direction: column;
+}
+
+.mySkills{
+  font-size: 40px;
+  color: white;
+  font-family: Lexend;
+}
+
+.languages{
+  font-size: 25px;
+  color: white;
+  font-family: Mono-Reg;
+}
+
+
 .activeSlider{
   display: flex;
   flex-direction: column;
@@ -248,8 +269,6 @@ SkillsSlider
   height: h-screen;
   background-color: #000000;
   margin-top: 30px;
-  padding: 100px;
-
 }
 
 .swiper{
@@ -258,8 +277,12 @@ SkillsSlider
   --swiper-pagination-bullet-inactive-color: white;
   --swiper-pagination-color: white;
   --swiper-navigation-color: white;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-right: 12px;
+  padding-left: 12px;
 }
+
 
 .swiperSlide{
   display: flex;
@@ -268,6 +291,13 @@ SkillsSlider
   margin-bottom: 20px;
   position: relative;
   overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 12px 2px #0951ff;
+}
+
+.swiperSlide:hover{
+  box-shadow: 0 0 20px 5px #0951ff;
 }
 
 .images{
@@ -282,6 +312,11 @@ SkillsSlider
   color: white;
   font-family: Mono-Reg;
   text-align: center;
+}
+
+.card{
+  padding:10px;
+  
 }
 
 

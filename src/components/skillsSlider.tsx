@@ -11,6 +11,15 @@ import { SwiperImages } from '../assets/swiperContent'
 
 const SkillsSwiper = () => {
     return(
+    <>
+        <div className="mySkillsDiv">
+            <p className="mySkills">
+                my skills:
+            </p>
+            <p className="languages">
+                languages:
+            </p>
+        </div>
         <div className="activeSlider">
             <Swiper
                 breakpoints={{
@@ -43,6 +52,7 @@ const SkillsSwiper = () => {
                 ))}
             </Swiper>
         </div>
+    </>    
     )
 }
 
