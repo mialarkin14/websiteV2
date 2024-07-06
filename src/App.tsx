@@ -2,7 +2,7 @@ import NavBarH from './components/navBarH.tsx'
 import NavBarF from './components/navBarF.tsx'
 import TypeWriter from './components/typeWritter.tsx'
 import MiniAbout from './components/miniAbout.tsx'
-import SkillsSwiper from './components/skillsSlider.tsx'
+import Skills from './components/skillsSlider.tsx'
 
 function App() {
 
@@ -26,7 +26,7 @@ function App() {
       <MiniAbout></MiniAbout>
 
       {/* SkillsSlider */}
-      <SkillsSwiper></SkillsSwiper>
+      <Skills></Skills>
 
 
       {/* Footer is the Navigation Bar*/}

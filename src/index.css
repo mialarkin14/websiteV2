@@ -91,8 +91,8 @@ TypeWriter - Computer
   justify-content: center;
   align-items: center;
   background-image: -webkit-image-set("/src/assets/bg.svg");
-  background-repeat: no-repeat;
-  box-shadow: 0 0 20px 15px #0951ff;
+  background-size: cover;
+  box-shadow: 10px 15px 20px #0951ff;
 }
 
 
@@ -316,7 +316,6 @@ SkillsSlider
 
 .card{
   padding:10px;
-  
 }
 
 

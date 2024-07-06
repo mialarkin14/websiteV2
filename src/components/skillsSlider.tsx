@@ -9,7 +9,7 @@ import { FreeMode, Navigation, Pagination } from 'swiper/modules'
 import { SwiperImages } from '../assets/swiperContent'
 
 
-const SkillsSwiper = () => {
+const Skills = () => {
     return(
     <>
         <div className="mySkillsDiv">
@@ -56,4 +56,4 @@ const SkillsSwiper = () => {
     )
 }
 
-export default SkillsSwiper
+export default Skills
