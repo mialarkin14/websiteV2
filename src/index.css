@@ -254,6 +254,11 @@ SkillsSlider
 
 .swiper{
   max-width: 90%;
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-inactive-color: white;
+  --swiper-pagination-color: white;
+  --swiper-navigation-color: white;
+  padding-bottom: 20px;
 }
 
 .swiperSlide{
@@ -269,14 +274,15 @@ SkillsSlider
   height: 200px;
   background-size: contain;
   background-repeat: no-repeat;  
+  background-position: center;
 }
 
 
 .title, .content{
   color: white;
   font-family: Mono-Reg;
+  text-align: center;
 }
-
 
 
 

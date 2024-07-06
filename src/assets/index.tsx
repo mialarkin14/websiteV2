@@ -2,8 +2,7 @@ import c from "./skills/c.png";
 import css from "./skills/css.png";
 import html from "./skills/html.png";
 import java from "./skills/java.png";
-import oop from "./skills/oop.png";
-import python from "./skills/python.svg";
+import python from "./skills/python.png";
 import react from "./skills/react.png"
 import riscv from "./skills/riscv.png"
   
@@ -27,11 +26,6 @@ import riscv from "./skills/riscv.png"
       title: "Java",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       Image: java,
-    },
-    {
-      title: "Object Oriented Programming",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      Image: oop,
     },
     {
       title: "Python",

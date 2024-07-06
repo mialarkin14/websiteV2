@@ -3,8 +3,9 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/free-mode'
+import 'swiper/css/navigation'
 
-import { FreeMode, Pagination } from 'swiper/modules'
+import { FreeMode, Navigation, Pagination } from 'swiper/modules'
 import { ServiceData } from '../assets'
 
 
@@ -24,10 +25,9 @@ const SkillsSwiper = () => {
                     }}
                 
                     freeMode={true}
-                pagination={{
-                    clickable: true,
-                }}
-                modules={[FreeMode, Pagination]}
+                navigation={true}
+                pagination={true}
+                modules={[FreeMode, Pagination, Navigation]}
                 className="swiper"
             >
             {ServiceData.map((item) => (
