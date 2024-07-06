@@ -1,8 +1,8 @@
 import { TypeAnimation } from 'react-type-animation';
 
-const TypeWriter = ({text}: {text:string}) => {
+const TypeWriter = ({className, text, repeatT}: {className: string, text:string, repeatT:any}) => {
   return (
-    <div className="typeWrite">
+    <div className={className}>
       <TypeAnimation
         sequence={[
           text,
@@ -11,7 +11,7 @@ const TypeWriter = ({text}: {text:string}) => {
         ]}
         speed={1}
         style={{ whiteSpace: 'pre-line', fontSize: '2em' }}
-        repeat={Infinity}
+        repeat={repeatT}
         omitDeletionAnimation={true}
       />
     </div>

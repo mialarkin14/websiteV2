@@ -110,7 +110,7 @@ TypeWriter - Computer
   border-style: solid;
   padding: 1.5rem;
   margin-top: 25px;
-  color: #0951ff;
+  border-color: #0951ff;
   box-shadow: 0 0 50px 15px #0951ff;
 }
 
@@ -119,14 +119,11 @@ TypeWriter - Computer
   cursor: default;
 }
 
-.typeWrite{
-  height: auto;
+.beginning{
   color: white;
   font-family: Mono-Reg;
   font-size: 20px;
 }
-
-
 
 /*
 MiniAbout
@@ -272,7 +269,7 @@ SkillsSlider
 }
 
 .swiper{
-  max-width: 90%;
+  max-width: 75%;
   --swiper-pagination-bullet-size: 8px;
   --swiper-pagination-bullet-inactive-color: white;
   --swiper-pagination-color: white;
@@ -291,7 +288,7 @@ SkillsSlider
   margin-bottom: 20px;
   position: relative;
   overflow: hidden;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 20px;
   box-shadow: 0 0 12px 2px #0951ff;
 }
@@ -314,8 +311,12 @@ SkillsSlider
   text-align: center;
 }
 
-.card{
-  padding:10px;
+.python{
+  color: white;
+  font-family: Mono-Reg;
+  font-size: 8px;
+  height: 20px;
+  padding-bottom: 60px;
 }
 
 

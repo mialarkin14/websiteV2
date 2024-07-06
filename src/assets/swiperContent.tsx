@@ -5,11 +5,13 @@ import java from "./skills/java.png";
 import python from "./skills/python.png";
 import react from "./skills/react.png"
 import riscv from "./skills/riscv.png"
+import TypeWriter from "../components/typeWritter";
   
   export const SwiperImages = [
     {
       title: "python",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      content: <TypeWriter className={"python"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."} 
+      repeatT={Infinity}></TypeWriter>,
       Image: python,
     },
     {

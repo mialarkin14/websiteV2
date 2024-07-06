@@ -17,7 +17,7 @@ function App() {
       {/* Typewriter Animation for Title*/}
       <div className="computer">
         <div className="typeWriteDiv">
-          <TypeWriter text={"hi i'm mia\n welcome to my website!"}></TypeWriter>
+          <TypeWriter className={"beginning"} text={"hi i'm mia\n welcome to my website!"} repeatT={Infinity}></TypeWriter>
         </div>
       </div>
       
