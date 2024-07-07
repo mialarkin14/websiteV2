@@ -140,8 +140,9 @@ MiniAbout
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
   align-content: center;
+  column-gap: 20px;
 }
 
 .intro{
@@ -235,8 +236,12 @@ MiniAbout
 
 
 /*
-SkillsSlider
+Skills
 */
+
+.skills{
+  box-shadow: 10px 15px 20px #0951ff;
+}
 
 .mySkillsDiv{
   display: flex;
@@ -251,10 +256,16 @@ SkillsSlider
   font-family: Lexend;
 }
 
-.languages{
+.code, .electronicstext{
   font-size: 25px;
   color: white;
   font-family: Mono-Reg;
+  display: inline;
+}
+
+.code:hover, .electronicstext:hover{
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  cursor: pointer; 
 }
 
 
@@ -291,6 +302,9 @@ SkillsSlider
   padding-top: 50px;
   padding-bottom: 20px;
   box-shadow: 0 0 12px 2px #0951ff;
+  border-radius: 7px;
+  border-color: #0951ff;
+  border-width: 2px;
 }
 
 .swiperSlide:hover{
@@ -305,7 +319,7 @@ SkillsSlider
 }
 
 
-.title, .content{
+.title, .content, .circuitsText, .logicText, .circuitsTitle, .logicTitle{
   color: white;
   font-family: Mono-Reg;
   text-align: center;
@@ -316,6 +330,57 @@ SkillsSlider
   padding-left: 5%;
   padding-right: 5%;
 }
+
+.electronics{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.electrFlex{
+  padding-top: 100px;
+  padding-bottom: 150px;
+  column-gap: 7%;
+  row-gap: 80px;
+}
+
+.electrFlex, .circuits, .logic{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.circuits, .logic{
+  column-gap: 40px;
+  row-gap: 40px;
+  box-shadow: 0 0 20px 7px #0951ff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 7px;
+  border-width: 2px;
+}
+
+.circuits:hover, .logic:hover{
+  box-shadow: 0 0 30px 10px #0951ff;
+}
+
+.circuitsText, .logicText{
+  width: 217px;
+}
+
+.circuitsTitle, .logicTitle{
+  font-size: 23px;
+  font-family: Mono-Bold;
+}
+
 
 
 
