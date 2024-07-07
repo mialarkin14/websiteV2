@@ -2,6 +2,11 @@ const MiniAbout = () => {
     return (
         <>
         <div className="miniAbout">
+            <div className="about">
+                <p className="about-text">
+                    about:
+                </p>
+            </div>
             <div className="intro">
                 <div className="meDiv">
                     <img className="me" src="src/assets/me.jpg"></img>
