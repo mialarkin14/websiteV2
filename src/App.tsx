@@ -1,34 +1,20 @@
-import NavBarH from './components/navBarH.tsx'
-import NavBarF from './components/navBarF.tsx'
-import TypeWriter from './components/typeWritter.tsx'
-import MiniAbout from './components/miniAbout.tsx'
-import Skills from './components/skills.tsx'
-import Resume from './components/resume.tsx'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from "./pages/home"
+import About from "./pages/about"
+import Portfolio from "./pages/portfolio"
 
 function App() {
 
   return (
     <>
-      <header>
-          <NavBarH></NavBarH>
-      </header>
-      
-      <div className="computer">
-        <div className="typeWriteDiv">
-          <TypeWriter className={"beginning"} text={"hi i'm mia\n welcome to my website!"} repeatT={Infinity}></TypeWriter>
-        </div>
-      </div>
-      
-      <MiniAbout></MiniAbout>
-
-      <Skills></Skills>
-
-      <Resume></Resume>
-
-      <footer>
-        <NavBarF></NavBarF>
-      </footer>
-      
+      <BrowserRouter>
+      <Routes>
+        <Route index element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
+        <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }
