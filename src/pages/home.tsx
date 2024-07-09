@@ -12,19 +12,14 @@ const Home = () =>{
         <header>
             <NavBarH></NavBarH>
         </header>
-        
         <div className="computer">
             <div className="typeWriteDiv">
             <TypeWriter className={"beginning"} text={"hi i'm mia\n welcome to my website!"} repeatT={Infinity}></TypeWriter>
             </div>
         </div>
-        
         <MiniAbout></MiniAbout>
-
         <Skills></Skills>
-
         <Resume></Resume>
-
         <footer>
             <NavBarF></NavBarF>
         </footer>
