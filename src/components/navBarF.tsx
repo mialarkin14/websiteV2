@@ -20,9 +20,9 @@ const NavBarF = () =>{
                 <a className="linkF" href={github} target="_blank"> github </a>
                 <a className="linkF" href={linkedin} target="_blank"> linkedin </a>
                 <a className="linkF" href={insta} target="_blank"> instagram </a>
-                <a className="linkF" href="#" target="_blank"> code </a>
-                <a className="linkF" href="#" target="_blank"> electronics </a>
-                <a className="linkF" href="#" target="_blank"> drawings </a>
+                <Link to="/code" className="linkF">code</Link>
+                <Link to="/electronics" className="linkF">electronics</Link>
+                <Link to="/drawings" className="linkF">drawings</Link>
             </div>
         </div>
         
