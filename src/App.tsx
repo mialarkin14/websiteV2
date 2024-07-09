@@ -3,6 +3,7 @@ import NavBarF from './components/navBarF.tsx'
 import TypeWriter from './components/typeWritter.tsx'
 import MiniAbout from './components/miniAbout.tsx'
 import Skills from './components/skills.tsx'
+import Resume from './components/resume.tsx'
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
       <MiniAbout></MiniAbout>
 
       <Skills></Skills>
+
+      <Resume></Resume>
 
       <footer>
         <NavBarF></NavBarF>

@@ -259,7 +259,7 @@ Skills
   flex-direction: column;
 }
 
-.mySkills{
+.mySkills, .resumeText{
   font-size: 40px;
   color: white;
   font-family: Lexend;
@@ -387,6 +387,73 @@ Skills
 .circuitsTitle, .logicTitle{
   font-size: 23px;
   font-family: Mono-Bold;
+}
+
+
+
+/*
+Resume
+*/
+.resume{
+  padding: 120px;
+  box-shadow: 10px 15px 20px #09c6ff;
+  padding-bottom: 200px;
+}
+
+.resumeDiv{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 60px;
+}
+
+.resumeFlex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  column-gap: 200px;
+  row-gap: 50px;
+}
+
+.resume-icon{
+  width: 300px;
+  box-shadow: 0 0 40px 15px #09c6ff;
+  border-radius: 10px;
+}
+
+.resume-icon:hover{
+  box-shadow: 0 0 60px 20px #09c6ff;
+}
+
+.more-experiencesDiv{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.more-experiences{
+  font-family: Lexend;
+  color: white;
+  font-size: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+.paperclipB{
+  background-color: #27374f;
+  width: 150px;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: 0 0 15px 5px #09c6ff;
+}
+
+.paperclipB:hover{
+  box-shadow: 0 0 20px 10px #09c6ff;
 }
 
 
