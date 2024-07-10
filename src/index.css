@@ -241,6 +241,21 @@ MiniAbout
   width: 300px;
 }
 
+.aboutB{
+  cursor: pointer;
+  background-color: #27374f;
+  color:white; 
+  font-family: Lexend;
+  font-size:20px;
+  padding:20px;
+  border-radius:20px;
+  box-shadow:0 0 15px 5px #09c6ff;
+}
+
+.aboutB:hover{
+  box-shadow: 0 0 20px 10px #09c6ff;
+}
+
 
 
 
@@ -387,6 +402,21 @@ Skills
 .circuitsTitle, .logicTitle{
   font-size: 23px;
   font-family: Mono-Bold;
+}
+
+.portfolioB{
+  cursor: pointer;
+  background-color: #27374f;
+  color:white; 
+  font-family: Lexend;
+  font-size:20px;
+  padding:20px;
+  border-radius:20px;
+  box-shadow:0 0 15px 5px #0951ff;
+}
+
+.portfolioB:hover{
+  box-shadow: 0 0 20px 10px #0951ff;
 }
 
 

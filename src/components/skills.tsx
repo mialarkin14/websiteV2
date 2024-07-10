@@ -1,4 +1,5 @@
 import {Swiper, SwiperSlide} from 'swiper/react'
+import { Link } from 'react-router-dom'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -17,9 +18,11 @@ const Skills = () => {
             <p className="mySkills">
                 my skills:
             </p>
-            <p className="code">
-                code:
-            </p>
+            <Link to='/code' style={{textDecoration:'none'}}>
+                <p className="code">
+                    code:
+                </p>
+            </Link>
         </div>
         <div className="activeSlider">
             <Swiper
@@ -54,9 +57,11 @@ const Skills = () => {
             </Swiper>
         </div>
         <div className="electronics">
-            <p className="electronicstext">
-                electronics:
-            </p>
+            <Link to='/electronics' style={{textDecoration:'none'}}>
+                <p className="electronicstext">
+                    electronics:
+                </p>
+            </Link>
             <div className="electrFlex">
                 <div className="circuits">
                     <img src="src/assets/skills/circuits.png" alt="circutis" width={"200px"}/>
@@ -89,10 +94,16 @@ const Skills = () => {
                             <li className="logicText">parity and hamming code </li>
                         </ul>
                     </div>
-                    
                 </div>
             </div>
         </div>
+        <div style={{display:'flex', justifyContent:'center', alignItems:'center', paddingBottom:'100px'}}>
+                <Link to='/portfolio' >
+                    <button className="portfolioB">
+                        explore projects 
+                    </button>
+                </Link>
+            </div>
     </div>
     </>    
     )

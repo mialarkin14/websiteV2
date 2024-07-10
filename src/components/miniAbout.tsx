@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const MiniAbout = () => {
     return (
         <>
@@ -44,6 +46,16 @@ const MiniAbout = () => {
                     <img className="circuit" src="src/assets/circuit.jpg"></img>
                 </div>
             </div>
+
+            <div style={{display:'flex', justifyContent:'center', alignItems:'center', paddingBottom:'60px'}}>
+                <Link to='/about' >
+                    <button className="aboutB">
+                        learn more 
+                    </button>
+                </Link>
+            </div>
+            
+            
         </div>
         </>
     )
