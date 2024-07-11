@@ -25,7 +25,7 @@ const Facts = () =>{
                     on my instagram 
                 </p>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <InstagramEmbed url="https://www.instagram.com/shadowillusion14/" width={500} style={{marginTop:'100px', borderRadius: '20px', boxShadow: '0 0 40px 15px #09c6ff'}} />
+                    <InstagramEmbed url="https://www.instagram.com/shadowillusion14/" className="instagramE" width={500}/>
                 </div>
             </div>
         </div>
