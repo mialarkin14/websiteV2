@@ -14,15 +14,15 @@ const NavBarF = () =>{
                 <Link to="/home" className="icon"><img src="src/assets/navbar/logo.svg" width="200px" height="auto"></img></Link>
             </div>
             <div className="navLinks">
-                <Link to="/home" className="linkF">home</Link>
-                <Link to="/about" className="linkF">about</Link>
-                <Link to="/portfolio" className="linkF">portfolio</Link>
+                <Link to="/home" className="linkF" onClick={() => {window.scroll(0, 0)}}>home</Link>
+                <Link to="/about" className="linkF" onClick={() => {window.scroll(0, 0)}}>about</Link>
+                <Link to="/portfolio" className="linkF" onClick={() => {window.scroll(0, 0)}}>portfolio</Link>
                 <a className="linkF" href={github} target="_blank"> github </a>
                 <a className="linkF" href={linkedin} target="_blank"> linkedin </a>
                 <a className="linkF" href={insta} target="_blank"> instagram </a>
-                <Link to="/code" className="linkF">code</Link>
-                <Link to="/electronics" className="linkF">electronics</Link>
-                <Link to="/drawings" className="linkF">drawings</Link>
+                <Link to="/code" className="linkF" onClick={() => {window.scroll(0, 0)}}>code</Link>
+                <Link to="/electronics" className="linkF" onClick={() => {window.scroll(0, 0)}}>electronics</Link>
+                <Link to="/drawings" className="linkF" onClick={() => {window.scroll(0, 0)}}>drawings</Link>
             </div>
         </div>
         

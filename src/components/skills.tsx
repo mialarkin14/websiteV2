@@ -18,7 +18,7 @@ const Skills = () => {
             <p className="mySkills">
                 my skills:
             </p>
-            <Link to='/code' style={{textDecoration:'none'}}>
+            <Link to='/code' onClick={() => {window.scroll(0, 0)}} style={{textDecoration:'none'}}>
                 <p className="code">
                     code:
                 </p>
@@ -57,7 +57,7 @@ const Skills = () => {
             </Swiper>
         </div>
         <div className="electronics">
-            <Link to='/electronics' style={{textDecoration:'none'}}>
+            <Link to='/electronics' onClick={() => {window.scroll(0, 0)}} style={{textDecoration:'none'}}>
                 <p className="electronicstext">
                     electronics:
                 </p>
@@ -98,7 +98,7 @@ const Skills = () => {
             </div>
         </div>
         <div style={{display:'flex', justifyContent:'center', alignItems:'center', paddingBottom:'100px'}}>
-                <Link to='/portfolio' >
+                <Link to='/portfolio' onClick={() => {window.scroll(0, 0)}}>
                     <button className="portfolioB">
                         explore projects 
                     </button>

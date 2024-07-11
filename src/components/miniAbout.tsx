@@ -48,14 +48,12 @@ const MiniAbout = () => {
             </div>
 
             <div style={{display:'flex', justifyContent:'center', alignItems:'center', paddingBottom:'60px'}}>
-                <Link to='/about' >
+                <Link to='/about' onClick={() => {window.scroll(0, 0)}}>
                     <button className="aboutB">
                         learn more 
                     </button>
                 </Link>
             </div>
-            
-            
         </div>
         </>
     )
