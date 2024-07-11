@@ -2,7 +2,7 @@ import NavBarH from "../components/navBarH"
 import NavBarF from "../components/navBarF"
 import AboutIntro from "../components/aboutStart"
 import MiniGallery from "../components/miniGallery"
-import Facts from "../components/randomFacts"
+import Facts from "../components/facts"
 import '../pages/about.css'
 
 const About = () =>{
