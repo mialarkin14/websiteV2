@@ -16,7 +16,7 @@ const Passion = () =>{
                     <img src="src/assets/me3.png" alt="claw-machine" className="clawMachine"/>
                 </div>
                 <p className="SubHeading1" style={{marginBottom:'100px'}}>
-                        through college, i have developed many skills and learned a lot ranging from object oriented programming
+                        through college, i developed many skills and learned a lot ranging from object oriented programming
                         to computer architecture.
                     </p>
                 <div style={{display:'flex', flexDirection:'row', justifyContent:'center', 
