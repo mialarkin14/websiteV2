@@ -23,7 +23,7 @@ import riscv from "./skills/riscv.png"
     },
     {
       title: "processing",
-      content: "Intermediate | 1 year Experience | Learned Programming Fundamentals",
+      content: "Intermediate | 1 year Experience | Programming Fundamentals",
       Image: processing,
     },
     {

@@ -32,13 +32,20 @@
     font-size: 22px;
   }
 
-  .me2{
-    max-width: 400px;
+  .me2, .clawMachine, .logicWorks{
     border-radius: 50px;
     box-shadow: 0 0 40px 15px #0951ff; 
   }
 
-  .me2:hover{
+  .logicWorks{
+    max-width: 500px;
+  }
+
+  .me2, .clawMachine{
+    max-width: 400px;
+  }
+
+  .me2:hover, .clawMachine:Hover{
     box-shadow: 0 0 60px 15px #0951ff;
   }
 
@@ -74,13 +81,13 @@
     cursor: pointer;
   }
 
-  .hang{
+  .hang, .canoe{
     width: 400px;
     border-radius: 20px;
     box-shadow: 0 0 40px 15px #09c6ff; 
   }
 
-  .hang:hover, .instagramE:hover{
+  .hang:hover, .instagramE:hover, .canoe:hover{
     box-shadow: 0 0 60px 15px #09c6ff;
   }
 
@@ -89,5 +96,15 @@
     border-radius: 40px;
     box-shadow: 0 0 40px 15px #09c6ff;
 
+  }
+
+  .CC{
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 10px #09c6ff; 
+  }
+
+  .CC:hover{
+    box-shadow: 0 0 30px 15px #09c6ff; 
   }
   

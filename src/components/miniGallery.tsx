@@ -67,6 +67,12 @@ const MiniGallery = () => {
                 <img className="next" src ={right} style={{width:'20px'}}></img>
             </button>
           </div>
+          <div style={{ display:'flex', justifyContent:'center', marginTop:'100px'}}>
+            <p className="SubHeading1" style={{maxWidth:'900px', marginRight:'50px', marginLeft:'50px'}}>
+              a personal motto i live by: <br /> <br/>"the past is in the past. focus on what you can do in the present rather than dwelling on what can't be changed." 
+            </p>
+          </div>
+         
         </div>
        
         </>  
