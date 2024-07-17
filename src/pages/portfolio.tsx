@@ -19,19 +19,19 @@ const Portfolio = () =>{
             </p>
             <div  style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'wrap', flexDirection:'row', columnGap:'50px'}}>
                 <div style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'wrap', flexDirection:'column', rowGap:'10px'}}>
-                    <Link to='/code'><img src="src/assets/portfolio/code.png" alt="code" /></Link>
+                    <Link to='/code'><img src="src/assets/portfolio/code.png" alt="code" onClick={() => {window.scroll(0, 0)}}/></Link>
                     <p className="SubHeading1">
                         code
                     </p>
                 </div>
                 <div style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'wrap', flexDirection:'column', rowGap:'10px'}}>
-                    <Link to='/electronics'><img src="src/assets/portfolio/electronics.png" alt="electronics" /></Link>
+                    <Link to='/electronics'><img src="src/assets/portfolio/electronics.png" alt="electronics"  onClick={() => {window.scroll(0, 0)}}/></Link>
                     <p className="SubHeading1">
                         electronics
                     </p>
                 </div>
                 <div style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'wrap', flexDirection:'column', rowGap:'10px'}}>
-                    <Link to='/drawings'><img src="src/assets/portfolio/draw.png" alt="draw" /></Link>
+                    <Link to='/drawings'><img src="src/assets/portfolio/draw.png" alt="draw"  onClick={() => {window.scroll(0, 0)}}/></Link>
                     <p className="SubHeading1">
                         drawings
                     </p>

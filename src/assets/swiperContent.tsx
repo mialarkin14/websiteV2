@@ -8,37 +8,37 @@ import riscv from "./skills/riscv.png"
   export const SwiperImages = [
     {
       title: "python",
-      content:"Advanced | 3 years Experience | Learned Data Structures and OOP.",
+      content:"advanced | 3 years Experience | Learned Data Structures and OOP.",
       Image: python,
     },
     {
       title: "c",
-      content: "Intermediate | 1 year Experience | Learned Systems Programming.",
+      content: "intermediate | 1 year Experience | Learned Systems Programming.",
       Image: c,
     },
     {
       title: "risc-v",
-      content: "Beginner | 1 year Experience | Learned 32-Bit Risc-V Assembly.",
+      content: "beginner | 1 year Experience | Learned 32-Bit Risc-V Assembly.",
       Image: riscv,
     },
     {
       title: "processing",
-      content: "Intermediate | 1 year Experience | Programming Fundamentals",
+      content: "intermediate | 1 year Experience | Programming Fundamentals",
       Image: processing,
     },
     {
       title: "css",
-      content: "Intermediate | 1 year Experience | Learned for styling HTML",
+      content: "intermediate | 1 year Experience | Learned for styling HTML",
       Image: css,
     },
     {
       title: "html",
-      content: "Intermediate | 1 year Experience | Learned for website creation",
+      content: "intermediate | 1 year Experience | Learned for website creation",
       Image: html,
     },
     {
       title: "react",
-      content: "Beginner | 1 year Experience | Learned Typescript and JavaScript",
+      content: "beginner | 1 year Experience | Learned Typescript and JavaScript",
       Image: react,
     },
 

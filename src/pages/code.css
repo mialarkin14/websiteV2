@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Lexend";
+    src: url(src/assets/fonts/Lexend-VariableFont_wght.ttf);
+  }
+  
+  @font-face {
+    font-family: "Mono-Reg";
+    src: url(src/assets/fonts/SpaceMono-Regular.ttf);
+  }
+  
+  @font-face{
+    font-family: "Mono-Bold";
+    src: url(src/assets/fonts/SpaceMono-Bold.ttf);
+  }
+
+  
+  .TextTitle, .SubHeading1, .SubHeading2{
+    font-family: Lexend;
+    color: white;
+    text-align: center;
+  }
+
+  .TextTitle{
+    font-size: 40px;
+  }
+
+  .SubHeading1{
+    font-size: 30px;
+  }
+
+  .SubHeading2{
+    font-size: 22px;
+  }
+
+  .project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 0 30px 10px #0951ff;
+    border-radius: 20px;
+  }
+
+  .project:hover{
+    box-shadow: 0 0 40px 20px #0951ff;
+  }
+
+  .git{
+    width: 400px;
+    padding: 30px;
+    box-shadow: 0 0 40px 15px #09c6ff;
+    border-radius: 20px;
+  }
+
+  .git:hover{
+    box-shadow: 0 0 60px 25px #09c6ff;
+  }
