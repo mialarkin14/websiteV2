@@ -14,7 +14,7 @@
   }
 
   
-  .TextTitle, .SubHeading1, .SubHeading2{
+  .TextTitle, .SubHeading1{
     font-family: Lexend;
     color: white;
     text-align: center;
@@ -29,7 +29,10 @@
   }
 
   .SubHeading2{
-    font-size: 22px;
+    font-size: 20px;
+    font-family: Mono-Reg;
+    color: white;
+    text-align: center;
   }
 
   .project{
