@@ -3,7 +3,7 @@ const Canoe = () =>{
         <>
         <div className="concreteCanoe" style={{paddingTop: '150px', paddingBottom:'150px', boxShadow: '10px 15px 20px #09c6ff'}}>
             <p className="TextTitle" style={{marginBottom:'100px'}}>
-                concrete canoe:
+                a project i'm proud of - concrete canoe:
             </p>
             <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', 
                 justifyContent:'center', alignItems:'center', columnGap:'100px', rowGap:'50px'}}>

@@ -9,11 +9,11 @@ const AboutIntro = () =>{
                     about:
                 </p>
                 <p className="SubHeading1">
-                    i'm a computer engineer undergraduate from easton, ct studying at uconn
+                    i'm mia larkin, a computer engineer undergraduate from easton, ct studying at uconn
                 </p>
                 <p className="SubHeading2">
                     since high school, i've enjoyed building circuits and figuring out coding problems and projects!
-                    in my free time, you'll find me drawing, listening to music, playing video games, ice skating, or skateboarding
+                    in my free time, you'll find me drawing, listening to music, playing video games, ice skating, reading, writing or skateboarding
                 </p>
             </div>
             <div>
