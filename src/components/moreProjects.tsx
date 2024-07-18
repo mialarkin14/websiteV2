@@ -6,7 +6,7 @@ const MoreProjects = () =>{
                 <p className="TextTitle" style={{width: '300px'}}>
                     check out my other projects on my <a href="https://github.com/mialarkin14">github</a>
                 </p>
-                <a href="https://github.com/mialarkin14"><img src="src/assets/navbar/git.png" alt="github" 
+                <a href="https://github.com/mialarkin14" target="_blank" ><img src="src/assets/navbar/git.png" alt="github" 
                 className="git"/></a>
             </div>
         </>

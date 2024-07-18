@@ -14,7 +14,7 @@ const Projects = () =>{
                     </p>
                 </div>  
                 <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', justifyContent:'center', alignItems:'center', 
-                    columnGap:'80px', rowGap:'80px', paddingLeft:'70px', paddingRight:'70px'}}>
+                    columnGap:'100px', rowGap:'80px', paddingLeft:'70px', paddingRight:'70px'}}>
                     <a href="https://github.com/mialarkin14/Hangman" target="_blank" style={{textDecoration:'none'}}>
                         <CodeFunction image="src/assets/portfolio/code/hangman.png" title="hangman game" 
                         description="a simple implementation of the hangman game using python 🐍. has simple and easy to read code with 

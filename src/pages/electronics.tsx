@@ -1,5 +1,6 @@
 import NavBarH from "../components/navBarH"
 import NavBarF from "../components/navBarF"
+import '../pages/electronics.css'
 
 const Electronics = () =>{
     return(
