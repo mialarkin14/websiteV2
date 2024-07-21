@@ -32,16 +32,29 @@
     font-size: 22px;
   }
   
-  .image-card {
+  .image-card1, .image-card2, .image-card3 {
     width: 27vw;
     height: 27vw;
     object-fit: cover;
     margin: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 10px 5px #0951ff;
   }
 
-  .image-card:hover{
+  .image-card2{
+    box-shadow: 0 0 10px 5px #09c6ff;
+  }
+
+  .image-card2:hover{
+    box-shadow: 0 0 15px 10px #09c6ff;
+    cursor: pointer;
+  }
+
+  .image-card1, .image-card3{
+    box-shadow: 0 0 10px 5px #0951ff;
+    cursor: pointer;
+  }
+
+  .image-card1:hover, .image-card3:hover{
     box-shadow: 0 0 15px 10px #0951ff;
   }
   
@@ -65,23 +78,21 @@
   }
   
   
-  button {
+  .prevD, .nextD {
     color: white;
-    border: 2px solid #0951ff;
-    background-color: #0951ff;
-    font-size: 1.2rem;
+    background-color: #27374f;
+    font-size: 2rem;
     border-radius: 10px;
-    margin: 80px;
-  }
-
-  
-  p {
-    margin-bottom: 1.5rem;
-    font-size: .9rem;
-  }
-  
-  img:hover, button:hover {
+    margin: 40px;
     cursor: pointer;
   }
+
+  .imagelight{
+    min-width: 400px;
+    min-height: 400px;
+    max-height: 700px;
+    object-fit: contain;
+  }
+  
   
   

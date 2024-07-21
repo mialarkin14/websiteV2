@@ -1,6 +1,8 @@
 import NavBarH from "../components/navBarH"
 import NavBarF from "../components/navBarF"
-import GalleryI from "../components/drawingsGall"
+import GalleryDig from "../components/drawingsDigital"
+import GalleryGray from "../components/drawingsGray"
+import GalleryColor from "../components/drawingsColor"
 import '../pages/drawings.css'
 
 const Drawings = () =>{
@@ -9,7 +11,9 @@ const Drawings = () =>{
         <header>
             <NavBarH></NavBarH>
         </header>
-        <GalleryI></GalleryI>
+        <GalleryDig></GalleryDig>
+        <GalleryGray></GalleryGray>
+        <GalleryColor></GalleryColor>
         <footer>
             <NavBarF></NavBarF>
         </footer>
