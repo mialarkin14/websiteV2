@@ -31,3 +31,53 @@
   .SubHeading2{
     font-size: 22px;
   }
+
+  .filters, .audio{
+    width: 400px;
+    box-shadow: 0 0 40px 15px #0951ff;
+    border-radius: 20px;
+  }
+
+  .filters:hover, .audio:hover{
+    box-shadow: 0 0 60px 25px #0951ff;
+  }
+
+  .designpaper, .logicworks{
+    font-family: Lexend;
+    color: white;
+    background-color: #27374f;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+
+  .designpaper{
+    box-shadow: 0 0 20px 10px #0951ff;
+  }
+
+  .designpaper:hover{
+    box-shadow: 0 0 25px 15px #0951ff;
+    cursor: pointer;
+  }
+
+  .logicworks{
+    box-shadow: 0 0 20px 10px #09c6ff;
+  }
+
+  .logicworks:hover{
+    box-shadow: 0 0 25px 15px #09c6ff;
+    cursor: pointer;
+  }
+
+
+  .state, .kmap{
+    width: 400px;
+    box-shadow: 0 0 40px 15px #09c6ff;
+    border-radius: 20px;
+  }
+
+  .state:hover, .kmap:hover{
+    box-shadow: 0 0 60px 25px #09c6ff;
+  }
+

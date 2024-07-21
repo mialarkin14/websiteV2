@@ -38,7 +38,7 @@ import riscv from "./skills/riscv.png"
     },
     {
       title: "react",
-      content: "beginner | 1 year Experience | Learned Typescript and JavaScript",
+      content: "beginner | 1 year Experience | Typescript and JavaScript",
       Image: react,
     },
 
