@@ -1,5 +1,6 @@
 import CodeFunction from "./codeFunction";
 
+
 const Projects = () =>{
     return(
         <>
@@ -13,6 +14,7 @@ const Projects = () =>{
                         coded projects ranging in language and functionality  
                     </p>
                 </div>  
+                
                 <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', justifyContent:'center', alignItems:'center', 
                     columnGap:'100px', rowGap:'80px', paddingLeft:'70px', paddingRight:'70px'}}>
                     <a href="https://github.com/mialarkin14/Hangman" target="_blank" style={{textDecoration:'none'}}>
@@ -46,6 +48,8 @@ const Projects = () =>{
                         variables that change with each recursive pass."></CodeFunction>
                     </a>
                 </div>
+
+               
             </div>
         </>
     )

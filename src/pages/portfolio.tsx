@@ -17,6 +17,8 @@ const Portfolio = () =>{
             <p className="SubHeading1" style={{width:'100%', paddingBottom:'100px'}}>
                 a collection of coding projects, circuit designs, and drawings
             </p>
+            
+            
             <div  style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'wrap', flexDirection:'row', columnGap:'100px', rowGap:'100px'}}>
                 <div style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'wrap', flexDirection:'column', rowGap:'10px', 
                      boxShadow: '0 0 30px 10px #0951ff', borderRadius:'20px', padding: '30px'}}>

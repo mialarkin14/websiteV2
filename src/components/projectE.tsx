@@ -6,6 +6,7 @@ const ProjectsE = () =>{
             <p className="TextTitle">
                 electronics:
             </p>
+            
             <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', justifyContent:'center', alignItems:'center', 
                 columnGap:'200px', rowGap:'80px', boxShadow: '10px 15px 20px #0951ff', width:'100%', paddingBottom:'100px'}}>
                 <div style={{display:'flex', flexDirection:'column', flexWrap:'wrap', justifyContent:'center', alignItems:'center', 

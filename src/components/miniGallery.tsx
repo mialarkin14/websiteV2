@@ -8,6 +8,9 @@ import image5 from '../assets/miniGallery/image5.jpeg';
 import left from '../assets/miniGallery/left-arrow.svg';
 import right from '../assets/miniGallery/right-arrow.svg';
 
+import ScrollAnimation from 'react-animate-on-scroll'
+import "animate.css/animate.compat.css"
+
 const MiniGallery = () => {
     const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4])
     
@@ -41,39 +44,49 @@ const MiniGallery = () => {
       };
       return (
         <>
-        <div style={{paddingBottom:'100px', boxShadow: '10px 15px 20px #0951ff'}}>
-          <div className="carousel-grid" style={{paddingBottom:'22%'}}>
-            <div className="carousel">
-              {images.map((image, index) => (
-              <motion.img
-                  key={index}
-                  src={image}
-                  alt={image}
-                  className="rounded-[12px]"
-                  initial="center"
-                  animate={positions[positionIndexes[index]]}
-                  variants={imageVariants}
-                  transition={{ duration: 0.5 }}
-                  style={{ width: "47%", position: "absolute", boxShadow: '0 0 40px 15px #0951ff', borderRadius:'20px'}}
-              />
-              ))}
-            </div>
+        
+          <div style={{paddingBottom:'100px', boxShadow: '10px 15px 20px #0951ff'}}>
+          <ScrollAnimation animateIn='fadeIn' duration={3}>
+              <div className="carousel-grid" style={{paddingBottom:'22%'}}>
+                <div className="carousel">
+                  {images.map((image, index) => (
+                  <motion.img
+                      key={index}
+                      src={image}
+                      alt={image}
+                      className="rounded-[12px]"
+                      initial="center"
+                      animate={positions[positionIndexes[index]]}
+                      variants={imageVariants}
+                      transition={{ duration: 0.5 }}
+                      style={{ width: "47%", position: "absolute", boxShadow: '0 0 40px 15px #0951ff', borderRadius:'20px'}}
+                  />
+                  ))}
+                </div>
+              </div>
+              <div className="carousel-buttons">
+                <button className="backB" onClick={handleBack} style={{backgroundColor:'white'}}>
+                    <img className="back" src ={left} style={{width:'20px'}}></img>
+                </button>
+                <button className="nextB" onClick={handleNext} style={{backgroundColor:'white'}}>
+                    <img className="next" src ={right} style={{width:'20px'}}></img>
+                </button>
+              </div>
+            </ScrollAnimation>
+            
+            <ScrollAnimation animateIn='bounceInLeft' duration={3}>
+              <div style={{ display:'flex', justifyContent:'center', marginTop:'100px'}}>
+                <p className="SubHeading1" style={{maxWidth:'900px', marginRight:'50px', marginLeft:'50px'}}>
+                  a personal motto i live by: <br /> <br/>"the past is in the past. focus on what you can do in the present rather than dwelling on what can't be changed." 
+                </p>
+              </div>
+            </ScrollAnimation>
+            
+          
           </div>
-          <div className="carousel-buttons">
-            <button className="backB" onClick={handleBack} style={{backgroundColor:'white'}}>
-                <img className="back" src ={left} style={{width:'20px'}}></img>
-            </button>
-            <button className="nextB" onClick={handleNext} style={{backgroundColor:'white'}}>
-                <img className="next" src ={right} style={{width:'20px'}}></img>
-            </button>
-          </div>
-          <div style={{ display:'flex', justifyContent:'center', marginTop:'100px'}}>
-            <p className="SubHeading1" style={{maxWidth:'900px', marginRight:'50px', marginLeft:'50px'}}>
-              a personal motto i live by: <br /> <br/>"the past is in the past. focus on what you can do in the present rather than dwelling on what can't be changed." 
-            </p>
-          </div>
-         
-        </div>
+
+        
+        
        
         </>  
     )

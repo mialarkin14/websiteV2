@@ -5,18 +5,19 @@ import MiniAbout from '../components/miniAbout.tsx'
 import Skills from '../components/skills.tsx'
 import Resume from '../components/resume.tsx'
 
-
 const Home = () =>{
     return (
     <>
         <header>
             <NavBarH></NavBarH>
         </header>
-        <div className="computer">
-            <div className="typeWriteDiv">
-            <TypeWriter className={"beginning"} text={"hi i'm mia\n welcome to my website!"} repeatT={Infinity}></TypeWriter>
+            
+            <div className="computer">
+                <div className="typeWriteDiv">
+                <TypeWriter className={"beginning"} text={"hi i'm mia\n welcome to my website!"} repeatT={Infinity}></TypeWriter>
+                </div>
             </div>
-        </div>
+        
         <MiniAbout></MiniAbout>
         <Skills></Skills>
         <Resume></Resume>
