@@ -504,7 +504,8 @@ footer{
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  column-gap: 1px;
+  column-gap: 90px;
+  row-gap: 30px;
 }
 
 .navLinks{
@@ -513,6 +514,8 @@ footer{
   flex-wrap: wrap;
   width: 800px;
   justify-content: center;
+  column-gap: 80px;
+  row-gap: 40px;
 }
 
 .linkF{
@@ -520,5 +523,5 @@ footer{
   color: white;
   font-family: Lexend;
   text-decoration:none;
-  padding: 5%;
+
 }
