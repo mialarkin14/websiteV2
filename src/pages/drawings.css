@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Lexend";
+    src: url(src/assets/fonts/Lexend-VariableFont_wght.ttf);
+  }
+  
+  @font-face {
+    font-family: "Mono-Reg";
+    src: url(src/assets/fonts/SpaceMono-Regular.ttf);
+  }
+  
+  @font-face{
+    font-family: "Mono-Bold";
+    src: url(src/assets/fonts/SpaceMono-Bold.ttf);
+  }
+
+  
+  .TextTitle, .SubHeading1, .SubHeading2{
+    font-family: Lexend;
+    color: white;
+    text-align: center;
+  }
+
+  .TextTitle{
+    font-size: 40px;
+  }
+
+  .SubHeading1{
+    font-size: 30px;
+  }
+
+  .SubHeading2{
+    font-size: 22px;
+  }
+  
+  .image-card {
+    width: 27vw;
+    height: 27vw;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px #0951ff;
+  }
+
+  .image-card:hover{
+    box-shadow: 0 0 15px 10px #0951ff;
+  }
+  
+  #lightbox-img {
+    height: 80vh;
+    max-width: 90vw;
+    object-fit: cover;
+  }
+  
+  #lightbox {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 19, 19, 0.849);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  button {
+    color: white;
+    border: 2px solid #0951ff;
+    background-color: #0951ff;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin: 80px;
+  }
+
+  
+  p {
+    margin-bottom: 1.5rem;
+    font-size: .9rem;
+  }
+  
+  img:hover, button:hover {
+    cursor: pointer;
+  }
+  
+  
