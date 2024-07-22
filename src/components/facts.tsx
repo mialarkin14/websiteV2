@@ -2,6 +2,8 @@ import { InstagramEmbed } from 'react-social-media-embed';
 import ScrollAnimation from 'react-animate-on-scroll'
 import "animate.css/animate.compat.css"
 
+import hang from '../assets/hang.png'
+
 const Facts = () =>{
     return(
         <>
@@ -10,7 +12,7 @@ const Facts = () =>{
                 <div className="RandomFacts" style={{display:'flex', flexDirection:'row', flexWrap:'wrap', 
                     justifyContent:'center', alignItems:'center', padding:'150px', columnGap:'200px', rowGap:'50px'}}>
                         <div>
-                            <img src="src/assets/hang.png" alt="hang" className="hang"/>
+                            <img src={hang} alt="hang" className="hang"/>
                         </div>
                         <div>
                             <p className="TextTitle" style={{paddingBottom:'50px'}}>random facts:</p>

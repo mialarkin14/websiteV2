@@ -1,3 +1,5 @@
+import me from '../assets/me2.jpg'
+
 const AboutIntro = () =>{
     return(
         <>
@@ -17,7 +19,7 @@ const AboutIntro = () =>{
                 </p>
             </div>
             <div>
-                <img src="src/assets/me2.jpg" alt="me" className="me2"/>
+                <img src={me} alt="me" className="me2"/>
             </div>
         </div>
         </>

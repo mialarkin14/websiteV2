@@ -1,13 +1,12 @@
 import { useState } from "react";
 import "../pages/drawings.css"
 
-const image1 = "src/assets/drawings-images/bubble.jpg";
-const image2 = "src/assets/drawings-images/dragon.jpg";
-const image3 = "src/assets/drawings-images/hi.jpg";
-const image4 = "src/assets/drawings-images/sky.jpg";
-const image5 = "src/assets/drawings-images/tear.jpg";
-const image6 = "src/assets/drawings-images/toad.jpg";
-
+import image1 from '../assets/drawings-images/bubble.jpg'
+import image2 from '../assets/drawings-images/dragon.jpg'
+import image3 from '../assets/drawings-images/hi.jpg'
+import image4 from '../assets/drawings-images/sky.jpg'
+import image5 from '../assets/drawings-images/tear.jpg'
+import image6 from '../assets/drawings-images/toad.jpg'
 
 const images = [image1, image2, image3, image4, image5, image6];
 

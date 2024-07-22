@@ -1,6 +1,11 @@
 import ScrollAnimation from 'react-animate-on-scroll'
 import "animate.css/animate.compat.css"
 
+import canoeLogo from '../assets/canoeLogo.png'
+import shell from '../assets/shell.jpg'
+import cover from '../assets/cover.jpeg'
+import demo from '../assets/demolding.jpg'
+
 const Canoe = () =>{
     return(
         <>
@@ -17,16 +22,16 @@ const Canoe = () =>{
                         type and amount of reinforcement, build the canoe, write an in-depth design paper, 
                         give a panel presentation to judges, and race against other teams in the canoe we make!
                         </p>
-                        <img src="src/assets/canoeLogo.png" alt="logo" style={{width:'400px'}}/>
+                        <img src={canoeLogo} alt="logo" style={{width:'400px'}}/>
                 </div>
             </ScrollAnimation>
             
             <ScrollAnimation animateIn='fadeInLeft' duration={3}>
                 <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', 
                     justifyContent:'center', alignItems:'center', columnGap:'50px', rowGap:'50px', marginTop:'80px'}}>
-                        <img src="src/assets/shell.jpg" alt="shell" className="CC"/>
-                        <img src="src/assets/cover.jpeg" alt="cover" className="CC"/>
-                        <img src="src/assets/demolding.jpg" alt="demold" className="CC"/>
+                        <img src={shell} alt="shell" className="CC"/>
+                        <img src={cover} alt="cover" className="CC"/>
+                        <img src={demo} alt="demold" className="CC"/>
                 </div>
                 <div style={{display:'flex', justifyContent:'center', alignItems:'center', marginTop:'60px'}}>
                     <p className="SubHeading1" style={{width:'1000px'}}>

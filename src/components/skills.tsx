@@ -12,6 +12,9 @@ import 'swiper/css/navigation'
 import { FreeMode, Navigation, Pagination } from 'swiper/modules'
 import { SwiperImages } from '../assets/swiperContent'
 
+import circuits from '../assets/skills/circuits.png'
+import logic from '../assets/skills/logic.png'
+
 
 const Skills = () => {
     return(
@@ -76,7 +79,7 @@ const Skills = () => {
                 </Link>
                 <div className="electrFlex">
                     <div className="circuits">
-                        <img src="src/assets/skills/circuits.png" alt="circutis" width={"200px"}/>
+                        <img src={circuits} alt="circutis" width={"200px"}/>
                         <div>
                             <p className="circuitsTitle">
                                 basic circuits
@@ -93,7 +96,7 @@ const Skills = () => {
                         
                     </div>
                     <div className="logic">
-                        <img src="src/assets/skills/logic.png" alt="logic" width={"200px"}/>
+                        <img src={logic} alt="logic" width={"200px"}/>
                         <div>
                             <p className="logicTitle">
                                 digital logic

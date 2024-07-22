@@ -1,6 +1,9 @@
 import ScrollAnimation from 'react-animate-on-scroll'
 import "animate.css/animate.compat.css"
 
+import me3 from '../assets/me3.png'
+import logic from '../assets/logicworks.jpeg'
+
 const Passion = () =>{
     return (
         <>
@@ -17,7 +20,7 @@ const Passion = () =>{
                             co-president in my senior year. throughout my time, i learned arduino which mixed code and circuits together.  
                             </p>
                         </div>
-                        <img src="src/assets/me3.png" alt="claw-machine" className="clawMachine"/>
+                        <img src={me3} alt="claw-machine" className="clawMachine"/>
                     </div>
                     <p className="SubHeading1" style={{marginBottom:'100px'}}>
                             through college, i developed many skills and learned a lot ranging from object oriented programming
@@ -28,7 +31,7 @@ const Passion = () =>{
                 <ScrollAnimation animateIn='fadeInLeft' duration={3}>
                     <div style={{display:'flex', flexDirection:'row', justifyContent:'center', 
                         alignItems:'center', flexWrap:'wrap', columnGap:'150px', rowGap:'50px'}}>
-                        <img src="src/assets/logicworks.jpeg" alt="logicWorks" className="logicWorks"/>
+                        <img src={logic} alt="logicWorks" className="logicWorks"/>
                         <p className="SubHeading1" style={{width:'400px'}}>
                             i have a particular passion for digital logic and design and would be interested in pursuing it 
                             in the future!

@@ -1,18 +1,18 @@
 import { useState } from "react";
 import "../pages/drawings.css"
 
-const image1 = "src/assets/drawings-images/beth.jpg";
-const image2 = "src/assets/drawings-images/evergarden.jpg";
-const image3 = "src/assets/drawings-images/hooky.jpg";
-const image4 = "src/assets/drawings-images/house-of-dragon.jpg";
-const image5 = "src/assets/drawings-images/me.jpg";
-const image6 = "src/assets/drawings-images/meliodas.jpg";
-const image7 = "src/assets/drawings-images/mountain-lion.jpg";
-const image8 = "src/assets/drawings-images/music-box.jpg";
-const image9 = "src/assets/drawings-images/piano.jpg";
-const image10 = "src/assets/drawings-images/piglet.jpg"
-const image11 = "src/assets/drawings-images/portrait.jpg";
-const image12 = "src/assets/drawings-images/shoe.jpg";
+import image1 from "../assets/drawings-images/beth.jpg";
+import image2 from "../assets/drawings-images/evergarden.jpg";
+import image3 from "../assets/drawings-images/hooky.jpg";
+import image4 from "../assets/drawings-images/house-of-dragon.jpg";
+import image5 from "../assets/drawings-images/me.jpg";
+import image6 from "../assets/drawings-images/meliodas.jpg";
+import image7 from "../assets/drawings-images/mountain-lion.jpg";
+import image8 from "../assets/drawings-images/music-box.jpg";
+import image9 from "../assets/drawings-images/piano.jpg";
+import image10 from "../assets/drawings-images/piglet.jpg"
+import image11 from "../assets/drawings-images/portrait.jpg";
+import image12 from "../assets/drawings-images/shoe.jpg";
 
 
 const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12];

@@ -1,3 +1,8 @@
+import filters from '../assets/electronics/filters.jpg'
+import audio from '../assets/electronics/audioEq.jpg'
+import state from '../assets/electronics/stateDia.png'
+import kmap from '../assets/electronics/kmap.png'
+
 const ProjectsE = () =>{
     return(
         <>
@@ -18,11 +23,11 @@ const ProjectsE = () =>{
                     an audio equalizer with three different bandpass filters. each band has an adjustable gain that creates a 
                     noticable output difference when changed. indiviual bands range from treble, midrange, and bass, of the music. 
                     </p>
-                    <img src="src/assets/electronics/filters.jpg" alt="filters" className="filters"/>
+                    <img src={filters} alt="filters" className="filters"/>
                 </div>
                 <div style={{display:'flex', flexDirection:'column', flexWrap:'wrap', justifyContent:'center', alignItems:'center', 
                 rowGap:'40px', width:'400px'}}>
-                    <img src="src/assets/electronics/audioEq.jpg" alt="audioEq" className="audio"/>
+                    <img src={audio} alt="audioEq" className="audio"/>
                     <p className="SubHeading2">
                     a full design paper for the project can be downloaded below. it includes multiple sections: an abstract, 
                     introduction, theory, design, procedures, results and discussion, and conclusion.
@@ -46,11 +51,11 @@ const ProjectsE = () =>{
                     <p className="SubHeading2">
                     an sequence detector that uses sequential logic to detect the binary sequence 0001 or 1110. 
                     </p>
-                    <img src="src/assets/electronics/stateDia.png" alt="state" className="state"/>
+                    <img src={state} alt="state" className="state"/>
                 </div>
                 <div style={{display:'flex', flexDirection:'column', flexWrap:'wrap', justifyContent:'center', alignItems:'center', 
                 rowGap:'40px', width:'400px'}}>
-                    <img src="src/assets/electronics/kmap.png" alt="kmap" className="kmap"/>
+                    <img src={kmap} alt="kmap" className="kmap"/>
                     <p className="SubHeading2">
                     logicworks was used to test minimized equations before hardware implmentation. the Logicworks file can be downloaded 
                     below. it includes clear and colored wiring as well as text labels for ease of design comprehension.

@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/website">
+      <BrowserRouter>
       <Routes>
         <Route index element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
@@ -21,8 +21,6 @@ function App() {
         <Route path='/drawings' element={<Drawings></Drawings>}></Route>
       </Routes>
     </BrowserRouter>
-    <Home>
-    </Home>
     </>
   )
 }

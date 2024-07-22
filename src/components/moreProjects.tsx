@@ -1,6 +1,8 @@
 import ScrollAnimation from 'react-animate-on-scroll'
 import "animate.css/animate.compat.css"
 
+import git from '../assets/navbar/git.png'
+
 const MoreProjects = () =>{
     return(
         <>
@@ -10,7 +12,7 @@ const MoreProjects = () =>{
                     <p className="TextTitle" style={{width: '300px'}}>
                         check out my other projects on my <a href="https://github.com/mialarkin14" target="_blank" >github</a>
                     </p>
-                    <a href="https://github.com/mialarkin14" target="_blank" ><img src="src/assets/navbar/git.png" alt="github" 
+                    <a href="https://github.com/mialarkin14" target="_blank" ><img src={git} alt="github" 
                     className="git"/></a>
                 </div>
             </ScrollAnimation>

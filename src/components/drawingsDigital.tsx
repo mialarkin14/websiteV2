@@ -1,10 +1,9 @@
 import { useState } from "react";
 import "../pages/drawings.css"
 
-const image1 = "src/assets/drawings-images/iu.jpg";
-const image2 = "src/assets/drawings-images/Yoojung_Drawing.png";
-const image3 = "src/assets/drawings-images/Hooyeon.png";
-
+import image1 from '../assets/drawings-images/iu.jpg'
+import image2 from '../assets/drawings-images/Yoojung_Drawing.png'
+import image3 from '../assets/drawings-images/Hooyeon.png'
 
 const images = [image1, image2, image3];
 
