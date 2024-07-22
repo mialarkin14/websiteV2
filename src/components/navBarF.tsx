@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "src/assets/navbar/logo.svg";
+import logo from '../assets/navbar/logo.svg';
 
 const github = "https://github.com/mialarkin14";
 const linkedin = "https://www.linkedin.com/in/mia-larkin-4885b0250/";
