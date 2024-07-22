@@ -21,6 +21,8 @@ function App() {
         <Route path='/drawings' element={<Drawings></Drawings>}></Route>
       </Routes>
     </BrowserRouter>
+    <Home>
+    </Home>
     </>
   )
 }
