@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "src/assets/navbar/logo.svg";
 
 const github = "https://github.com/mialarkin14";
 const linkedin = "https://www.linkedin.com/in/mia-larkin-4885b0250/";
@@ -11,7 +12,7 @@ const NavBarF = () =>{
     <>
         <div className="navBarF">
             <div className="iconF"> 
-                <Link to="/home" className="icon" onClick={() => {window.scroll(0, 0)}}><img src="src/assets/navbar/logo.svg" width="200px" height="auto"></img></Link>
+                <Link to="/home" className="icon" onClick={() => {window.scroll(0, 0)}}><img src={logo} width="200px" height="auto"></img></Link>
             </div>
             <div className="navLinks">
                 <Link to="/home" className="linkF" onClick={() => {window.scroll(0, 0)}}>home</Link>
