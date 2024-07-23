@@ -1,21 +1,5 @@
-@font-face {
-    font-family: "Lexend";
-    src: url(src/assets/fonts/Lexend-VariableFont_wght.ttf);
-  }
-  
-  @font-face {
-    font-family: "Mono-Reg";
-    src: url(src/assets/fonts/SpaceMono-Regular.ttf);
-  }
-  
-  @font-face{
-    font-family: "Mono-Bold";
-    src: url(src/assets/fonts/SpaceMono-Bold.ttf);
-  }
-
-  
   .TextTitle, .SubHeading1{
-    font-family: Lexend;
+    font-family: 'Verdana', sans-serif;
     color: white;
     text-align: center;
   }
@@ -30,7 +14,7 @@
 
   .SubHeading2{
     font-size: 20px;
-    font-family: Mono-Reg;
+    font-family: monospace;
     color: white;
     text-align: center;
   }
