@@ -5,6 +5,7 @@ import canoeLogo from '../assets/canoeLogo.png'
 import shell from '../assets/shell.jpg'
 import cover from '../assets/cover.jpeg'
 import demo from '../assets/demolding.jpg'
+import canoe from '../assets/canoe.jpg'
 
 const Canoe = () =>{
     return(
@@ -41,7 +42,7 @@ const Canoe = () =>{
                 </div>
                 <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', 
                     justifyContent:'center', alignItems:'center', columnGap:'150px', rowGap:'50px', marginTop:'80px'}}>
-                        <img src="src/assets/canoe.jpg" alt="canoe" className="canoe"/>
+                        <img src={canoe} alt="canoe" className="canoe"/>
                         <p className="SubHeading1" style={{width:'480px'}}>
                             having held multiple positions, including president of the club, i am very involved and 
                             passionate about the club! i lead and mentor the junior members and promote an overall fun and productive environment.
