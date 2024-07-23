@@ -5,7 +5,7 @@ import '../pages/portfolio.css'
 
 import code from '../assets/portfolio/code.png'
 import electronics from '../assets/portfolio/electronics.png'
-import drawings from '../assets/portfolio/electronics.png'
+import drawings from '../assets/portfolio/draw.png'
 
 const Portfolio = () =>{
     return(
