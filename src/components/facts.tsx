@@ -8,7 +8,7 @@ const Facts = () =>{
     return(
         <>
         <div className="Facts" style={{paddingBottom:'150px', boxShadow: '10px 15px 20px #09c6ff'}}>
-            <ScrollAnimation animateIn='fadeInUp' duration={3}>
+            <ScrollAnimation animateIn='fadeInUp' duration={3} animateOnce={true}>
                 <div className="RandomFacts" style={{display:'flex', flexDirection:'row', flexWrap:'wrap', 
                     justifyContent:'center', alignItems:'center', padding:'150px', columnGap:'200px', rowGap:'50px'}}>
                         <div>
@@ -26,7 +26,7 @@ const Facts = () =>{
                 </div>
             </ScrollAnimation>
             
-           <ScrollAnimation animateIn='fadeInLeft' duration={2}>
+           <ScrollAnimation animateIn='fadeInLeft' duration={2} animateOnce={true}>
             <div className="instagram">
                     <p className="SubHeading1" style={{marginRight:'150px', marginLeft:'150px'}}>
                         i love taking pictures of nature and the food i eat! you can find my canvas of drawings, landscapes, food and more 

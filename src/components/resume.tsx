@@ -7,7 +7,7 @@ import paperclip from '../assets/paperclip.png'
 const Resume = () =>{
     return(
         <>
-        <ScrollAnimation animateIn='fadeInRight' duration={4}>
+        <ScrollAnimation animateIn='fadeInRight' duration={4} animateOnce={true}>
             <div className="resume">
                 <div className="resumeDiv">
                     <p className="resumeText">

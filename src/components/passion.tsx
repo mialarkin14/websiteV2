@@ -8,7 +8,7 @@ const Passion = () =>{
     return (
         <>
             <div className="passion" style={{padding: '150px', boxShadow: '10px 15px 20px #0951ff'}}>
-                <ScrollAnimation animateIn='fadeInRight' duration={3}>
+                <ScrollAnimation animateIn='fadeInRight' duration={3} animateOnce={true}>
                     <div className="my-career" style={{display:'flex', flexDirection:'row', justifyContent:'center', 
                         alignItems:'center', flexWrap:'wrap', columnGap:'200px', rowGap:'50px', paddingBottom:'100px'}}>
                         <div className="text">
@@ -28,7 +28,7 @@ const Passion = () =>{
                     </p>
                 </ScrollAnimation>
                 
-                <ScrollAnimation animateIn='fadeInLeft' duration={3}>
+                <ScrollAnimation animateIn='fadeInLeft' duration={3} animateOnce={true}>
                     <div style={{display:'flex', flexDirection:'row', justifyContent:'center', 
                         alignItems:'center', flexWrap:'wrap', columnGap:'150px', rowGap:'50px'}}>
                         <img src={logic} alt="logicWorks" className="logicWorks"/>

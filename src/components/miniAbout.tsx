@@ -17,7 +17,7 @@ const MiniAbout = () => {
         <>
         
         <div className="miniAbout">
-            <ScrollAnimation animateIn="fadeIn" duration={3}>
+            <ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={true}>
                 <div className="about">
                     <p className="about-text">
                         about:
@@ -37,7 +37,7 @@ const MiniAbout = () => {
                 </div>
             </ScrollAnimation>
                 
-            <ScrollAnimation animateIn="flipInY" duration={3}>
+            <ScrollAnimation animateIn="flipInY" duration={3} animateOnce={true}>
                 <div className="hobbies">
                     <p className="hobbies-text">
                         i enjoy:
@@ -53,7 +53,7 @@ const MiniAbout = () => {
             </ScrollAnimation>
             
 
-            <ScrollAnimation animateIn="fadeIn" duration={3}>
+            <ScrollAnimation animateIn="fadeIn" duration={3} animateOnce={true}>
                 <div className="tech">
                     <div className="blurbDivT">
                         <p className="blurbT">

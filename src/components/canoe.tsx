@@ -10,7 +10,7 @@ const Canoe = () =>{
     return(
         <>
         <div className="concreteCanoe" style={{paddingTop: '150px', paddingBottom:'150px', boxShadow: '10px 15px 20px #09c6ff'}}>
-            <ScrollAnimation animateIn='fadeIn' duration={3}>
+            <ScrollAnimation animateIn='fadeIn' duration={3} animateOnce={true}>
                 <p className="TextTitle" style={{marginBottom:'100px'}}>
                     a project i'm proud of - concrete canoe:
                 </p>
@@ -26,7 +26,7 @@ const Canoe = () =>{
                 </div>
             </ScrollAnimation>
             
-            <ScrollAnimation animateIn='fadeInLeft' duration={3}>
+            <ScrollAnimation animateIn='fadeInLeft' duration={3} animateOnce={true}>
                 <div style={{display:'flex', flexDirection:'row', flexWrap:'wrap', 
                     justifyContent:'center', alignItems:'center', columnGap:'50px', rowGap:'50px', marginTop:'80px'}}>
                         <img src={shell} alt="shell" className="CC"/>

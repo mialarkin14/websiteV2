@@ -20,7 +20,7 @@ const Skills = () => {
     return(
     <>
     <div className="skills">
-        <ScrollAnimation animateIn='fadeIn' duration={3}>
+        <ScrollAnimation animateIn='fadeIn' duration={3} animateOnce={true}>
             <div className="mySkillsDiv">
                 <p className="mySkills">
                     my skills:
@@ -34,7 +34,7 @@ const Skills = () => {
         </ScrollAnimation>
         
 
-        <ScrollAnimation animateIn='bounceInRight' duration={3}>
+        <ScrollAnimation animateIn='bounceInRight' duration={3} animateOnce={true}>
             <div className="activeSlider">
                 <Swiper
                     breakpoints={{
@@ -70,7 +70,7 @@ const Skills = () => {
         </ScrollAnimation>
 
         
-        <ScrollAnimation animateIn='bounceInLeft' duration={3}>
+        <ScrollAnimation animateIn='bounceInLeft' duration={3} animateOnce={true}>
             <div className="electronics">
                 <Link to='/electronics' onClick={() => {window.scroll(0, 0)}} style={{textDecoration:'none'}}>
                     <p className="electronicstext">

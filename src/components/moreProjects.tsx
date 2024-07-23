@@ -6,7 +6,7 @@ import git from '../assets/navbar/git.png'
 const MoreProjects = () =>{
     return(
         <>
-            <ScrollAnimation animateIn="fadeInRight" duration={3}>
+            <ScrollAnimation animateIn="fadeInRight" duration={3} animateOnce={true}>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'center', flexDirection:'row', 
                     boxShadow: '10px 15px 20px #09c6ff', paddingBottom:'150px', paddingTop:'150px', columnGap:'150px', rowGap:'50px'}}>
                     <p className="TextTitle" style={{width: '300px'}}>

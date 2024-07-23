@@ -46,7 +46,7 @@ const MiniGallery = () => {
         <>
         
           <div style={{paddingBottom:'100px', boxShadow: '10px 15px 20px #0951ff'}}>
-          <ScrollAnimation animateIn='fadeIn' duration={3}>
+          <ScrollAnimation animateIn='fadeIn' duration={3} animateOnce={true}>
               <div className="carousel-grid" style={{paddingBottom:'22%'}}>
                 <div className="carousel">
                   {images.map((image, index) => (
@@ -74,7 +74,7 @@ const MiniGallery = () => {
               </div>
             </ScrollAnimation>
             
-            <ScrollAnimation animateIn='bounceInLeft' duration={3}>
+            <ScrollAnimation animateIn='bounceInLeft' duration={3} animateOnce={true}>
               <div style={{ display:'flex', justifyContent:'center', marginTop:'100px'}}>
                 <p className="SubHeading1" style={{maxWidth:'900px', marginRight:'50px', marginLeft:'50px'}}>
                   a personal motto i live by: <br /> <br/>"the past is in the past. focus on what you can do in the present rather than dwelling on what can't be changed." 
