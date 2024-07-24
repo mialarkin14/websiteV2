@@ -17,16 +17,17 @@
   }
 
   .me2, .clawMachine, .logicWorks{
-    border-radius: 50px;
     box-shadow: 0 0 40px 15px #0951ff; 
   }
 
   .logicWorks{
-    max-width: 500px;
+    width: 35vw;
+    border-radius: 5vw;
   }
 
   .me2, .clawMachine{
     max-width: 400px;
+    border-radius: 50px;
   }
 
   .me2:hover, .clawMachine:Hover{

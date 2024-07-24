@@ -2,7 +2,7 @@ const CodeFunction = ({image, title, description}: {image: string, title:string,
     return(
         <>
         <div className="project">
-            <img src={image} alt="project-image" style={{width: '340px'}}/>
+            <img src={image} alt="project-image" style={{width: '300px'}}/>
             <p className="SubHeading1" style={{width: '100%'}}>
                 {title}
             </p>

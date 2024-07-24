@@ -26,21 +26,21 @@ const Portfolio = () =>{
             <div  style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'wrap', flexDirection:'row', columnGap:'100px', rowGap:'100px'}}>
                 <div style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'wrap', flexDirection:'column', rowGap:'10px', 
                      boxShadow: '0 0 30px 10px #0951ff', borderRadius:'20px', padding: '30px'}}>
-                    <Link to='/code'><img src={code} alt="code" onClick={() => {window.scroll(0, 0)}}/></Link>
+                    <Link to='/code'><img src={code} alt="code" onClick={() => {window.scroll(0, 0)}} style={{width:'35vw'}}/></Link>
                     <p className="SubHeading1">
                         code
                     </p>
                 </div>
                 <div style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'wrap', flexDirection:'column', rowGap:'10px',
                      boxShadow: '0 0 30px 10px #0951ff', borderRadius:'20px', padding: '30px'}}>
-                    <Link to='/electronics'><img src={electronics} alt="electronics"  onClick={() => {window.scroll(0, 0)}}/></Link>
+                    <Link to='/electronics'><img src={electronics} alt="electronics"  onClick={() => {window.scroll(0, 0)}} style={{width:'35vw'}}/></Link>
                     <p className="SubHeading1">
                         electronics
                     </p>
                 </div>
                 <div style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'wrap', flexDirection:'column', rowGap:'10px',  
                     boxShadow: '0 0 30px 10px #0951ff', borderRadius:'20px', padding: '30px'}}>
-                    <Link to='/drawings'><img src={drawings} alt="draw"  onClick={() => {window.scroll(0, 0)}}/></Link>
+                    <Link to='/drawings'><img src={drawings} alt="draw"  onClick={() => {window.scroll(0, 0)}} style={{width:'35vw'}}/></Link>
                     <p className="SubHeading1">
                         drawings
                     </p>

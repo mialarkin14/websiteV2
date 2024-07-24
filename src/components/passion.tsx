@@ -15,7 +15,7 @@ const Passion = () =>{
                             <p className="TextTitle" style={{width:'400px'}}>
                                 my engineering career thus far:
                             </p>
-                            <p className="SubHeading1" style={{width:'400px'}}>
+                            <p className="SubHeading1" style={{width:'380px', margin:'10px'}}>
                             i found my passion for STEM through the sikorsky STEM challenge in high school. i worked my way up to 
                             co-president in my senior year. throughout my time, i learned arduino which mixed code and circuits together.  
                             </p>

@@ -17,23 +17,23 @@ const Facts = () =>{
                         <div>
                             <p className="TextTitle" style={{paddingBottom:'50px'}}>random facts:</p>
                             <ul >
-                                <li style={{color:'white', width:'400px'}}><p className="SubHeading2">i'm a big foodie and love spicy food</p></li>
-                                <li style={{color:'white', width:'400px'}}><p className="SubHeading2">i've played violin since i was 7 years old</p></li>
-                                <li style={{color:'white', width:'400px'}}><p className="SubHeading2">my favorite chips are monster munch from my childhood in ireland</p></li>
-                                <li style={{color:'white', width:'400px'}}><p className="SubHeading2">i've never broken a bone</p></li>
+                                <li style={{color:'white', width:'380px'}}><p className="SubHeading2">i'm a big foodie and love spicy food</p></li>
+                                <li style={{color:'white', width:'380px'}}><p className="SubHeading2">i've played violin since i was 7 years old</p></li>
+                                <li style={{color:'white', width:'380px'}}><p className="SubHeading2">my favorite chips are monster munch from my childhood in ireland</p></li>
+                                <li style={{color:'white', width:'380px'}}><p className="SubHeading2">i've never broken a bone</p></li>
                             </ul>
                         </div>
                 </div>
             </ScrollAnimation>
             
            <ScrollAnimation animateIn='fadeInLeft' duration={2} animateOnce={true}>
-            <div className="instagram">
-                    <p className="SubHeading1" style={{marginRight:'150px', marginLeft:'150px'}}>
+            <div className="instagram" style={{display:'flex', flexDirection:'column'}}>
+                    <p className="SubHeading1" style={{textAlign:'center', maxWidth:'1000px', alignSelf:'center', margin:'10px'}}>
                         i love taking pictures of nature and the food i eat! you can find my canvas of drawings, landscapes, food and more 
                         on my instagram 
                     </p>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <InstagramEmbed url="https://www.instagram.com/shadowillusion14/" className="instagramE" width={500}/>
+                        <InstagramEmbed url="https://www.instagram.com/shadowillusion14/" className="instagramE" width={400}/>
                     </div>
                 </div>
            </ScrollAnimation>
