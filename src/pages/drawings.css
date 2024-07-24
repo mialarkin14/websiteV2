@@ -43,9 +43,9 @@
   }
   
   #lightbox-img {
-    height: 80vh;
-    max-width: 90vw;
-    object-fit: cover;
+    height: 90vh;
+    max-width: 60vw;
+    object-fit: contain;
   }
   
   #lightbox {
@@ -65,17 +65,10 @@
   .prevD, .nextD {
     color: white;
     background-color: #27374f;
-    font-size: 2rem;
+    font-size: 1rem;
     border-radius: 10px;
-    margin: 40px;
+    margin: 20px;
     cursor: pointer;
-  }
-
-  .imagelight{
-    min-width: 400px;
-    min-height: 400px;
-    max-height: 700px;
-    object-fit: contain;
   }
   
   
