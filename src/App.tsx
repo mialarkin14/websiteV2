@@ -5,6 +5,7 @@ import Portfolio from "./pages/portfolio"
 import Code from "./pages/code"
 import Electronics from "./pages/electronics"
 import Drawings from "./pages/drawings"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/drawings' element={<Drawings></Drawings>}></Route>
       </Routes>
     </BrowserRouter>
+    <Analytics></Analytics>
     </>
   )
 }
