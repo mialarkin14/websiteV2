@@ -2,6 +2,8 @@ import filters from '../assets/electronics/filters.jpg'
 import audio from '../assets/electronics/audioEq.jpg'
 import state from '../assets/electronics/stateDia.png'
 import kmap from '../assets/electronics/kmap.png'
+import designpaper from '../assets/electronics/design-paper.pdf'
+
 
 const ProjectsE = () =>{
     return(
@@ -32,7 +34,7 @@ const ProjectsE = () =>{
                     a full design paper for the project can be downloaded below. it includes multiple sections: an abstract, 
                     introduction, theory, design, procedures, results and discussion, and conclusion.
                     </p>
-                    <a href="src/assets/electronics/design-paper.pdf" download="">
+                    <a href={designpaper} download="designPaper" target='_blank'>
                         <button className="designpaper">
                             design paper 
                         </button>
@@ -60,9 +62,9 @@ const ProjectsE = () =>{
                     logicworks was used to test minimized equations before hardware implmentation. the Logicworks file can be downloaded 
                     below. it includes clear and colored wiring as well as text labels for ease of design comprehension.
                     </p>
-                    <a href="src/assets/electronics/sequenceDetector.cct" download="">
+                    <a href="https://github.com/mialarkin14/websiteV2/blob/main/src/assets/electronics/sequenceDetector.cct" target="_blank">
                         <button className="logicworks">
-                            logic works 
+                            download logic works on github
                         </button>
                     </a>
                 </div>
