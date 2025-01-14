@@ -4,8 +4,11 @@ import "../pages/drawings.css"
 import image1 from '../assets/drawings-images/iu.jpg'
 import image2 from '../assets/drawings-images/Yoojung_Drawing.png'
 import image3 from '../assets/drawings-images/Hooyeon.png'
+import image4 from '../assets/drawings-images/allEyes.png'
+import image5 from '../assets/drawings-images/allEyesColor.png'
+import image6 from '../assets/jinxPowder.jpeg'
 
-const images = [image1, image2, image3];
+const images = [image1, image2, image3, image4, image5, image6];
 
 
 const GalleryDig = () => {
