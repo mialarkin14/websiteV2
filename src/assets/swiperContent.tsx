@@ -1,4 +1,5 @@
 import c from "./skills/c.png";
+import cpp from "./skills/c++.png"
 import css from "./skills/css.png";
 import html from "./skills/html.png";
 import processing from "./skills/processing.png";
@@ -13,8 +14,13 @@ import riscv from "./skills/riscv.png"
     },
     {
       title: "c",
-      content: "intermediate | 1 year experience | systems programming.",
+      content: "intermediate | 2 year experience | systems programming.",
       Image: c,
+    },
+    {
+      title: "c++",
+      content: "intermediate | 1 year experience | language essentials and OOP.",
+      Image: cpp,
     },
     {
       title: "risc-v",

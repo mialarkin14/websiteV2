@@ -5,6 +5,7 @@ import graph from '../assets/portfolio/code/graph.png'
 import list from '../assets/portfolio/code/list.png'
 import guess from '../assets/portfolio/code/guess.png'
 import binary from '../assets/portfolio/code/binary.png'
+import elevator from '../assets/portfolio/code/elevator.png'
 
 
 const Projects = () =>{
@@ -52,6 +53,11 @@ const Projects = () =>{
                         <CodeFunction image={binary} title="binary search" 
                         description="an implementation of a binary search in risc-v 5️⃣. uses a stack to save and restore 
                         variables that change with each recursive pass."></CodeFunction>
+                    </a>
+                    <a href="https://github.com/mialarkin14/Elevator-Simulation/tree/main" target="_blank" style={{textDecoration:'none'}}>
+                        <CodeFunction image={elevator} title="elevator simulation" 
+                        description="an elevator simulation in c++ 🌊++. uses object orientation principles to implement
+                        backend logic and frontend graphical interface."></CodeFunction>
                     </a>
                 </div>
 
