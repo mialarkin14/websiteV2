@@ -14,10 +14,10 @@ const NavBarH = () =>{
     <>
         <div className="navBar">
             <div className="internalLinks">
-                <Link to="/home" className="iconH"><img src={logo} width="60px" height="auto"></img></Link>
-                <Link to="/home" className="linkH">home</Link>
-                <Link to="/about" className="linkH">about</Link>
-                <Link to="/portfolio" className="linkH">portfolio</Link>
+                <Link to="/home" className="iconH" onClick={() => {window.scroll(0, 0)}}><img src={logo} width="60px" height="auto"></img></Link>
+                <Link to="/home" className="linkH" onClick={() => {window.scroll(0, 0)}}>home</Link>
+                <Link to="/about" className="linkH" onClick={() => {window.scroll(0, 0)}}>about</Link>
+                <Link to="/portfolio" className="linkH" onClick={() => {window.scroll(0, 0)}}>portfolio</Link>
             </div>
             <div className="externalLinks">
                 <a className="icon" href={github} target="_blank"><img src={git} width="40px" height="auto"></img></a>
